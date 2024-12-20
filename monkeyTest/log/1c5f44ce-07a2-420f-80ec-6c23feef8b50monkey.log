@@ -1,0 +1,99 @@
+▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ 
+▐░▌          ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌     ▐░▌     
+▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄      ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌     ▐░▌     
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░▌ ▐░▌       ▐░▌     ▐░▌     
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀▀▀▀▀▀█░▌     ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌     ▐░▌     
+▐░▌          ▐░▌       ▐░▌          ▐░▌     ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌     ▐░▌     
+▐░▌          ▐░▌       ▐░▌ ▄▄▄▄▄▄▄▄▄█░▌     ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌     ▐░▌     
+▐░▌          ▐░▌       ▐░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌     ▐░▌     
+ ▀            ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀       ▀
+[Fastbot][2024-12-19 16:22:34.309]  @Version: 2.3.23.0810.1705-git
+[Fastbot][2024-12-19 16:22:34.323] // Monkey: seed=1734758291608 count=1000
+
+
+[Fastbot][2024-12-19 16:22:34.324] // AllowPackage: com.le123.ysdq
+[Fastbot][2024-12-19 16:22:34.326] // DisallowActivity: com.elinkway.infinitemovies.account.activity.LoginActivity
+[Fastbot][2024-12-19 16:22:34.326] // DisallowActivity: com.elinkway.infinitemovies.feedback.activity.HotQuestionAnswerActivity
+[Fastbot][2024-12-19 16:22:34.327] // DisallowActivity: com.elinkway.infinitemovies.ui.activity.SettingActivity
+[Fastbot][2024-12-19 16:22:34.327] // DisallowActivity: com.elinkway.infinitemovies.ui.activity.commonwebview.CommonWebViewActivity
+[Fastbot][2024-12-19 16:22:34.327] // DisallowActivity: com.elinkway.infinitemovies.account.activity.PhoneLoginActivity
+[Fastbot][2024-12-19 16:22:34.328] // IncludeCategory: android.intent.category.LAUNCHER
+[Fastbot][2024-12-19 16:22:34.328] // IncludeCategory: android.intent.category.MONKEY
+[Fastbot][2024-12-19 16:22:34.589] // Selecting main activities from category android.intent.category.LAUNCHER
+[Fastbot][2024-12-19 16:22:34.590] //   - NOT USING main activity com.android.gallery3d.vivo.GalleryTabActivity (from package com.vivo.gallery)
+[Fastbot][2024-12-19 16:22:34.592] //   - NOT USING main activity com.android.bbkmusic.WidgetToTrackActivity (from package com.android.bbkmusic)
+[Fastbot][2024-12-19 16:22:34.600] //   - NOT USING main activity com.android.bbksoundrecorder.SoundRecorder (from package com.android.bbksoundrecorder)
+[Fastbot][2024-12-19 16:22:34.601] //   - NOT USING main activity com.android.camera.CameraActivity (from package com.android.camera)
+[Fastbot][2024-12-19 16:22:34.603] //   - NOT USING main activity com.android.contacts.DialtactsContactsEntryActivity (from package com.android.contacts)
+[Fastbot][2024-12-19 16:22:34.604] //   - NOT USING main activity com.android.dialer.TwelveKeyDialer (from package com.android.dialer)
+[Fastbot][2024-12-19 16:22:34.605] //   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+[Fastbot][2024-12-19 16:22:34.606] //   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+[Fastbot][2024-12-19 16:22:34.607] //   - NOT USING main activity com.bbk.calendar.MainActivity (from package com.bbk.calendar)
+[Fastbot][2024-12-19 16:22:34.608] //   - NOT USING main activity com.bbk.theme.Theme (from package com.bbk.theme)
+[Fastbot][2024-12-19 16:22:34.608] //   - NOT USING main activity com.chaozh.iReader.ui.activity.WelcomeActivity (from package com.chaozh.iReader)
+[Fastbot][2024-12-19 16:22:34.609] //   - NOT USING main activity cn.com.sina.finance.start.ui.LoadingActivity (from package cn.com.sina.finance)
+[Fastbot][2024-12-19 16:22:34.609] //   - NOT USING main activity com.qihoo.appstore.home.LauncherActivity (from package com.qihoo.appstore)
+[Fastbot][2024-12-19 16:22:34.610] //   - NOT USING main activity com.sohu.inputmethod.sogou.SogouIMELauncher (from package com.sohu.inputmethod.sogou)
+[Fastbot][2024-12-19 16:22:34.612] //   - NOT USING main activity com.android.BBKClock.Timer (from package com.android.BBKClock)
+[Fastbot][2024-12-19 16:22:34.614] //   - NOT USING main activity com.android.VideoPlayer.VideoPlayer (from package com.android.VideoPlayer)
+[Fastbot][2024-12-19 16:22:34.615] //   - NOT USING main activity com.android.bbkcalculator.Calculator (from package com.android.bbkcalculator)
+[Fastbot][2024-12-19 16:22:34.616] //   - NOT USING main activity com.android.filemanager.FileManagerActivity (from package com.android.filemanager)
+[Fastbot][2024-12-19 16:22:34.617] //   - NOT USING main activity com.android.notes.Notes (from package com.android.notes)
+[Fastbot][2024-12-19 16:22:34.618] //   - NOT USING main activity com.bbk.appstore.ui.AppStore (from package com.bbk.appstore)
+[Fastbot][2024-12-19 16:22:34.619] //   - NOT USING main activity com.bbk.cloud.activities.BBKCloudHomeScreen (from package com.bbk.cloud)
+[Fastbot][2024-12-19 16:22:34.619] //   - NOT USING main activity com.iqoo.secure.MainActivity (from package com.iqoo.secure)
+[Fastbot][2024-12-19 16:22:34.620] //   - NOT USING main activity com.vivo.Tips.MainActivity (from package com.vivo.Tips)
+[Fastbot][2024-12-19 16:22:34.620] //   - NOT USING main activity com.vivo.agent.view.activities.JoviHomeNewActivity (from package com.vivo.agent)
+[Fastbot][2024-12-19 16:22:34.621] //   - NOT USING main activity com.vivo.browser.BrowserActivity (from package com.vivo.browser)
+[Fastbot][2024-12-19 16:22:34.621] //   - NOT USING main activity com.vivo.compass.CalibrationActivity (from package com.vivo.compass)
+[Fastbot][2024-12-19 16:22:34.622] //   - NOT USING main activity com.vivo.email.activity.Welcome (from package com.vivo.email)
+[Fastbot][2024-12-19 16:22:34.622] //   - NOT USING main activity com.vivo.game.ui.LogoActivity (from package com.vivo.game)
+[Fastbot][2024-12-19 16:22:34.622] //   - NOT USING main activity com.vivo.space.ui.LogoActivity (from package com.vivo.space)
+[Fastbot][2024-12-19 16:22:34.623] //   - NOT USING main activity com.vivo.weather.WeatherMain (from package com.vivo.weather)
+[Fastbot][2024-12-19 16:22:34.623] //   - NOT USING main activity com.alibaba.android.rimet.biz.LaunchHomeActivity (from package com.alibaba.android.rimet)
+[Fastbot][2024-12-19 16:22:34.623] //   - NOT USING main activity com.alipay.hulu.activity.SplashActivity (from package com.alipay.hulu)
+[Fastbot][2024-12-19 16:22:34.624] //   - NOT USING main activity com.android.bbk.lockscreen3.LockScreenActivity (from package com.android.bbk.lockscreen3)
+[Fastbot][2024-12-19 16:22:34.624] //   - NOT USING main activity com.baidu.video.ui.WelcomActivity (from package com.baidu.video)
+[Fastbot][2024-12-19 16:22:34.624] //   - NOT USING main activity com.bbk.iqoo.feedback.ui.activities.SplashPrivacyActivity (from package com.bbk.iqoo.feedback)
+[Fastbot][2024-12-19 16:22:34.625] //   - NOT USING main activity com.demo.nas.MainActivity (from package com.demo.nas)
+[Fastbot][2024-12-19 16:22:34.625] //   - NOT USING main activity com.example.atta.test.MainActivity (from package com.example.atta.test)
+[Fastbot][2024-12-19 16:22:34.626] //   - NOT USING main activity com.getui.demo.GetuiSdkDemoActivity (from package com.getui.demo)
+[Fastbot][2024-12-19 16:22:34.626] //   - NOT USING main activity com.kwad.demo.open.splash.TestSplashScreenViewActivity (from package com.kwad.kwadsdk)
+[Fastbot][2024-12-19 16:22:34.626] //   + Using main activity com.elinkway.infinitemovies.ui.activity.SplashActivity (from package com.le123.ysdq)
+[Fastbot][2024-12-19 16:22:34.627] //   - NOT USING main activity com.qihoo.splash.v2.SplashActivity (from package com.qihoo.video)
+[Fastbot][2024-12-19 16:22:34.627] //   - NOT USING main activity com.qiyi.video.WelcomeActivity (from package com.qiyi.video)
+[Fastbot][2024-12-19 16:22:34.627] //   - NOT USING main activity com.smartisanos.smartfolder.aoa.MainActivity (from package com.smartisanos.smartfolder.aoa)
+[Fastbot][2024-12-19 16:22:34.628] //   - NOT USING main activity com.ss.android.article.video.activity.SplashActivity (from package com.ss.android.article.video)
+[Fastbot][2024-12-19 16:22:34.628] //   - NOT USING main activity com.cleanerapp.filesgo.ui.splash.SplashActivity (from package com.supercleaner.lite)
+[Fastbot][2024-12-19 16:22:34.629] //   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+[Fastbot][2024-12-19 16:22:34.629] //   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+[Fastbot][2024-12-19 16:22:34.629] //   - NOT USING main activity com.tencent.mtt.SplashActivity (from package com.tencent.mtt)
+[Fastbot][2024-12-19 16:22:34.630] //   - NOT USING main activity com.tencent.qqlive.ona.activity.SplashHomeActivity (from package com.tencent.qqlive)
+[Fastbot][2024-12-19 16:22:34.631] //   - NOT USING main activity com.tencent.qqpim.ui.DefaultAliasActivity (from package com.tencent.qqpim)
+[Fastbot][2024-12-19 16:22:34.631] //   - NOT USING main activity com.virtualdroid.loc.Launch (from package com.virtualdroid.loc)
+[Fastbot][2024-12-19 16:22:34.632] //   - NOT USING main activity com.vivo.mobilead.demo.activity.MainActivity (from package com.vivo.adnet.demo.app)
+[Fastbot][2024-12-19 16:22:34.632] //   - NOT USING main activity com.squareup.leakcanary.internal.DisplayLeakActivity (from package com.vivo.adnet.demo.app)
+[Fastbot][2024-12-19 16:22:34.633] //   - NOT USING main activity com.vivo.childrenmode.activity.ChildHomeActivity (from package com.vivo.childrenmode)
+[Fastbot][2024-12-19 16:22:34.633] //   - NOT USING main activity com.vivo.easyshare.activity.SplashScreenActivity (from package com.vivo.easyshare)
+[Fastbot][2024-12-19 16:22:34.634] //   - NOT USING main activity com.vivo.mobilead.vivodemo.activity.MainActivity (from package com.vivo.mobilead)
+[Fastbot][2024-12-19 16:22:34.634] //   - NOT USING main activity com.squareup.leakcanary.internal.DisplayLeakActivity (from package com.vivo.mobilead)
+[Fastbot][2024-12-19 16:22:34.635] //   - NOT USING main activity com.vivo.wallet.StartPageActivity (from package com.vivo.wallet)
+[Fastbot][2024-12-19 16:22:34.635] //   - NOT USING main activity com.xiaomi.ad.demo.MainActivity (from package com.xiaomi.ad.mimo.demo)
+[Fastbot][2024-12-19 16:22:34.636] //   - NOT USING main activity com.xunlei.downloadprovider.launch.LaunchActivity (from package com.xunlei.downloadprovider)
+[Fastbot][2024-12-19 16:22:34.636] //   - NOT USING main activity com.youku.phone.ActivityWelcome (from package com.youku.phone)
+[Fastbot][2024-12-19 16:22:34.636] //   - NOT USING main activity io.appium.settings.Settings (from package io.appium.settings)
+[Fastbot][2024-12-19 16:22:34.640] // Selecting main activities from category android.intent.category.MONKEY
+[Fastbot][2024-12-19 16:22:34.641] //   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+[Fastbot][2024-12-19 16:22:34.642] //   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+[Fastbot][2024-12-19 16:22:34.642] //   - NOT USING main activity com.bbk.launcher2.Launcher (from package com.bbk.launcher2)
+[Fastbot][2024-12-19 16:22:34.643] //   - NOT USING main activity com.bbk.scene.launcher.theme.SceneLauncherThemeMainActivity (from package com.bbk.scene.launcher.theme)
+[Fastbot][2024-12-19 16:22:34.643] //   - NOT USING main activity com.iqoo.engineermode.EngineerMode (from package com.iqoo.engineermode)
+[Fastbot][2024-12-19 16:22:34.643] //   - NOT USING main activity com.vivo.childrenmode.activity.MainActivity (from package com.vivo.childrenmode)
+[Fastbot][2024-12-19 16:22:37.645] // phone info： vivo_vivo X20A_8.1.0
+[Fastbot][2024-12-19 16:22:37.646] // runing fastbot
+[Fastbot][2024-12-19 16:22:37.659] InputMethod ID: com.sohu.inputmethod.sogou.vivo/.SogouIME
+[Fastbot][2024-12-19 16:22:37.660] InputMethod ID: com.sohu.inputmethod.sogou/.SogouIME
+[Fastbot][2024-12-19 16:22:37.672] // device serial number is cd9dcec
+[Fastbot][2024-12-19 16:22:37.790] // device uuid is 674a2191-3aab-4bc6-ab61-2b5d09c35898

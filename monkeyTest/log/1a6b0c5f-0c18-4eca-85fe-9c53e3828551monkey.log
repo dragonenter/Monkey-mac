@@ -1,0 +1,2184 @@
+▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ 
+▐░▌          ▐░▌       ▐░▌▐░▌               ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌     ▐░▌     
+▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄      ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌     ▐░▌     
+▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░▌ ▐░▌       ▐░▌     ▐░▌     
+▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀▀▀▀▀▀█░▌     ▐░▌     ▐░█▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌     ▐░▌     
+▐░▌          ▐░▌       ▐░▌          ▐░▌     ▐░▌     ▐░▌       ▐░▌▐░▌       ▐░▌     ▐░▌     
+▐░▌          ▐░▌       ▐░▌ ▄▄▄▄▄▄▄▄▄█░▌     ▐░▌     ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌     ▐░▌     
+▐░▌          ▐░▌       ▐░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░▌ ▐░░░░░░░░░░░▌     ▐░▌     
+ ▀            ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀       ▀       ▀▀▀▀▀▀▀▀▀▀   ▀▀▀▀▀▀▀▀▀▀▀       ▀
+[Fastbot][2024-12-19 17:51:04.958]  @Version: 2.3.23.0810.1705-git
+[Fastbot][2024-12-19 17:51:04.974] // Monkey: seed=1734675497969 count=1000
+
+
+[Fastbot][2024-12-19 17:51:04.975] // AllowPackage: com.le123.ysdq
+[Fastbot][2024-12-19 17:51:04.976] // DisallowActivity: com.elinkway.infinitemovies.account.activity.LoginActivity
+[Fastbot][2024-12-19 17:51:04.976] // DisallowActivity: com.elinkway.infinitemovies.feedback.activity.HotQuestionAnswerActivity
+[Fastbot][2024-12-19 17:51:04.977] // DisallowActivity: com.elinkway.infinitemovies.ui.activity.SettingActivity
+[Fastbot][2024-12-19 17:51:04.978] // DisallowActivity: com.elinkway.infinitemovies.ui.activity.commonwebview.CommonWebViewActivity
+[Fastbot][2024-12-19 17:51:04.978] // DisallowActivity: com.elinkway.infinitemovies.account.activity.PhoneLoginActivity
+[Fastbot][2024-12-19 17:51:04.979] // IncludeCategory: android.intent.category.LAUNCHER
+[Fastbot][2024-12-19 17:51:04.979] // IncludeCategory: android.intent.category.MONKEY
+[Fastbot][2024-12-19 17:51:05.143] // Selecting main activities from category android.intent.category.LAUNCHER
+[Fastbot][2024-12-19 17:51:05.146] //   - NOT USING main activity com.android.gallery3d.vivo.GalleryTabActivity (from package com.vivo.gallery)
+[Fastbot][2024-12-19 17:51:05.147] //   - NOT USING main activity com.android.bbkmusic.WidgetToTrackActivity (from package com.android.bbkmusic)
+[Fastbot][2024-12-19 17:51:05.148] //   - NOT USING main activity com.android.bbksoundrecorder.SoundRecorder (from package com.android.bbksoundrecorder)
+[Fastbot][2024-12-19 17:51:05.148] //   - NOT USING main activity com.android.camera.CameraActivity (from package com.android.camera)
+[Fastbot][2024-12-19 17:51:05.149] //   - NOT USING main activity com.android.contacts.DialtactsContactsEntryActivity (from package com.android.contacts)
+[Fastbot][2024-12-19 17:51:05.150] //   - NOT USING main activity com.android.dialer.TwelveKeyDialer (from package com.android.dialer)
+[Fastbot][2024-12-19 17:51:05.151] //   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+[Fastbot][2024-12-19 17:51:05.153] //   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+[Fastbot][2024-12-19 17:51:05.153] //   - NOT USING main activity com.bbk.calendar.MainActivity (from package com.bbk.calendar)
+[Fastbot][2024-12-19 17:51:05.154] //   - NOT USING main activity com.bbk.theme.Theme (from package com.bbk.theme)
+[Fastbot][2024-12-19 17:51:05.155] //   - NOT USING main activity com.chaozh.iReader.ui.activity.WelcomeActivity (from package com.chaozh.iReader)
+[Fastbot][2024-12-19 17:51:05.156] //   - NOT USING main activity cn.com.sina.finance.start.ui.LoadingActivity (from package cn.com.sina.finance)
+[Fastbot][2024-12-19 17:51:05.157] //   - NOT USING main activity com.qihoo.appstore.home.LauncherActivity (from package com.qihoo.appstore)
+[Fastbot][2024-12-19 17:51:05.158] //   - NOT USING main activity com.sohu.inputmethod.sogou.SogouIMELauncher (from package com.sohu.inputmethod.sogou)
+[Fastbot][2024-12-19 17:51:05.158] //   - NOT USING main activity com.android.BBKClock.Timer (from package com.android.BBKClock)
+[Fastbot][2024-12-19 17:51:05.159] //   - NOT USING main activity com.android.VideoPlayer.VideoPlayer (from package com.android.VideoPlayer)
+[Fastbot][2024-12-19 17:51:05.159] //   - NOT USING main activity com.android.bbkcalculator.Calculator (from package com.android.bbkcalculator)
+[Fastbot][2024-12-19 17:51:05.160] //   - NOT USING main activity com.android.filemanager.FileManagerActivity (from package com.android.filemanager)
+[Fastbot][2024-12-19 17:51:05.160] //   - NOT USING main activity com.android.notes.Notes (from package com.android.notes)
+[Fastbot][2024-12-19 17:51:05.161] //   - NOT USING main activity com.bbk.appstore.ui.AppStore (from package com.bbk.appstore)
+[Fastbot][2024-12-19 17:51:05.161] //   - NOT USING main activity com.bbk.cloud.activities.BBKCloudHomeScreen (from package com.bbk.cloud)
+[Fastbot][2024-12-19 17:51:05.162] //   - NOT USING main activity com.iqoo.secure.MainActivity (from package com.iqoo.secure)
+[Fastbot][2024-12-19 17:51:05.162] //   - NOT USING main activity com.vivo.Tips.MainActivity (from package com.vivo.Tips)
+[Fastbot][2024-12-19 17:51:05.163] //   - NOT USING main activity com.vivo.agent.view.activities.JoviHomeNewActivity (from package com.vivo.agent)
+[Fastbot][2024-12-19 17:51:05.163] //   - NOT USING main activity com.vivo.browser.BrowserActivity (from package com.vivo.browser)
+[Fastbot][2024-12-19 17:51:05.164] //   - NOT USING main activity com.vivo.compass.CalibrationActivity (from package com.vivo.compass)
+[Fastbot][2024-12-19 17:51:05.164] //   - NOT USING main activity com.vivo.email.activity.Welcome (from package com.vivo.email)
+[Fastbot][2024-12-19 17:51:05.165] //   - NOT USING main activity com.vivo.game.ui.LogoActivity (from package com.vivo.game)
+[Fastbot][2024-12-19 17:51:05.166] //   - NOT USING main activity com.vivo.space.ui.LogoActivity (from package com.vivo.space)
+[Fastbot][2024-12-19 17:51:05.167] //   - NOT USING main activity com.vivo.weather.WeatherMain (from package com.vivo.weather)
+[Fastbot][2024-12-19 17:51:05.168] //   - NOT USING main activity com.alibaba.android.rimet.biz.LaunchHomeActivity (from package com.alibaba.android.rimet)
+[Fastbot][2024-12-19 17:51:05.168] //   - NOT USING main activity com.alipay.hulu.activity.SplashActivity (from package com.alipay.hulu)
+[Fastbot][2024-12-19 17:51:05.169] //   - NOT USING main activity com.android.bbk.lockscreen3.LockScreenActivity (from package com.android.bbk.lockscreen3)
+[Fastbot][2024-12-19 17:51:05.170] //   - NOT USING main activity com.baidu.video.ui.WelcomActivity (from package com.baidu.video)
+[Fastbot][2024-12-19 17:51:05.171] //   - NOT USING main activity com.bbk.iqoo.feedback.ui.activities.SplashPrivacyActivity (from package com.bbk.iqoo.feedback)
+[Fastbot][2024-12-19 17:51:05.172] //   - NOT USING main activity com.demo.nas.MainActivity (from package com.demo.nas)
+[Fastbot][2024-12-19 17:51:05.173] //   - NOT USING main activity com.example.atta.test.MainActivity (from package com.example.atta.test)
+[Fastbot][2024-12-19 17:51:05.173] //   - NOT USING main activity com.getui.demo.GetuiSdkDemoActivity (from package com.getui.demo)
+[Fastbot][2024-12-19 17:51:05.174] //   - NOT USING main activity com.kwad.demo.open.splash.TestSplashScreenViewActivity (from package com.kwad.kwadsdk)
+[Fastbot][2024-12-19 17:51:05.175] //   + Using main activity com.elinkway.infinitemovies.ui.activity.SplashActivity (from package com.le123.ysdq)
+[Fastbot][2024-12-19 17:51:05.176] //   - NOT USING main activity com.qihoo.splash.v2.SplashActivity (from package com.qihoo.video)
+[Fastbot][2024-12-19 17:51:05.176] //   - NOT USING main activity com.qiyi.video.WelcomeActivity (from package com.qiyi.video)
+[Fastbot][2024-12-19 17:51:05.177] //   - NOT USING main activity com.smartisanos.smartfolder.aoa.MainActivity (from package com.smartisanos.smartfolder.aoa)
+[Fastbot][2024-12-19 17:51:05.178] //   - NOT USING main activity com.ss.android.article.video.activity.SplashActivity (from package com.ss.android.article.video)
+[Fastbot][2024-12-19 17:51:05.178] //   - NOT USING main activity com.cleanerapp.filesgo.ui.splash.SplashActivity (from package com.supercleaner.lite)
+[Fastbot][2024-12-19 17:51:05.179] //   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+[Fastbot][2024-12-19 17:51:05.180] //   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+[Fastbot][2024-12-19 17:51:05.181] //   - NOT USING main activity com.tencent.mtt.SplashActivity (from package com.tencent.mtt)
+[Fastbot][2024-12-19 17:51:05.181] //   - NOT USING main activity com.tencent.qqlive.ona.activity.SplashHomeActivity (from package com.tencent.qqlive)
+[Fastbot][2024-12-19 17:51:05.182] //   - NOT USING main activity com.tencent.qqpim.ui.DefaultAliasActivity (from package com.tencent.qqpim)
+[Fastbot][2024-12-19 17:51:05.183] //   - NOT USING main activity com.virtualdroid.loc.Launch (from package com.virtualdroid.loc)
+[Fastbot][2024-12-19 17:51:05.184] //   - NOT USING main activity com.vivo.mobilead.demo.activity.MainActivity (from package com.vivo.adnet.demo.app)
+[Fastbot][2024-12-19 17:51:05.187] //   - NOT USING main activity com.squareup.leakcanary.internal.DisplayLeakActivity (from package com.vivo.adnet.demo.app)
+[Fastbot][2024-12-19 17:51:05.188] //   - NOT USING main activity com.vivo.childrenmode.activity.ChildHomeActivity (from package com.vivo.childrenmode)
+[Fastbot][2024-12-19 17:51:05.188] //   - NOT USING main activity com.vivo.easyshare.activity.SplashScreenActivity (from package com.vivo.easyshare)
+[Fastbot][2024-12-19 17:51:05.189] //   - NOT USING main activity com.vivo.mobilead.vivodemo.activity.MainActivity (from package com.vivo.mobilead)
+[Fastbot][2024-12-19 17:51:05.190] //   - NOT USING main activity com.squareup.leakcanary.internal.DisplayLeakActivity (from package com.vivo.mobilead)
+[Fastbot][2024-12-19 17:51:05.190] //   - NOT USING main activity com.vivo.wallet.StartPageActivity (from package com.vivo.wallet)
+[Fastbot][2024-12-19 17:51:05.191] //   - NOT USING main activity com.xiaomi.ad.demo.MainActivity (from package com.xiaomi.ad.mimo.demo)
+[Fastbot][2024-12-19 17:51:05.192] //   - NOT USING main activity com.xunlei.downloadprovider.launch.LaunchActivity (from package com.xunlei.downloadprovider)
+[Fastbot][2024-12-19 17:51:05.192] //   - NOT USING main activity com.youku.phone.ActivityWelcome (from package com.youku.phone)
+[Fastbot][2024-12-19 17:51:05.193] //   - NOT USING main activity io.appium.settings.Settings (from package io.appium.settings)
+[Fastbot][2024-12-19 17:51:05.199] // Selecting main activities from category android.intent.category.MONKEY
+[Fastbot][2024-12-19 17:51:05.200] //   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+[Fastbot][2024-12-19 17:51:05.201] //   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+[Fastbot][2024-12-19 17:51:05.202] //   - NOT USING main activity com.bbk.launcher2.Launcher (from package com.bbk.launcher2)
+[Fastbot][2024-12-19 17:51:05.202] //   - NOT USING main activity com.bbk.scene.launcher.theme.SceneLauncherThemeMainActivity (from package com.bbk.scene.launcher.theme)
+[Fastbot][2024-12-19 17:51:05.203] //   - NOT USING main activity com.iqoo.engineermode.EngineerMode (from package com.iqoo.engineermode)
+[Fastbot][2024-12-19 17:51:05.204] //   - NOT USING main activity com.vivo.childrenmode.activity.MainActivity (from package com.vivo.childrenmode)
+[Fastbot][2024-12-19 17:51:08.206] // phone info： vivo_vivo X20A_8.1.0
+[Fastbot][2024-12-19 17:51:08.207] // runing fastbot
+[Fastbot][2024-12-19 17:51:08.230] InputMethod ID: com.sohu.inputmethod.sogou.vivo/.SogouIME
+[Fastbot][2024-12-19 17:51:08.232] InputMethod ID: com.sohu.inputmethod.sogou/.SogouIME
+[Fastbot][2024-12-19 17:51:08.254] // device serial number is cd9dcec
+[Fastbot][2024-12-19 17:51:08.342] // device uuid is 674a2191-3aab-4bc6-ab61-2b5d09c35898
+[Fastbot][2024-12-19 17:52:50.931] // init with reuse agent
+[Fastbot][2024-12-19 17:52:51.009] fastbot native : library load!
+[Fastbot][2024-12-19 17:52:51.010] fastbot native path is : /data/local/tmp/arm64-v8a/libfastbot_native.so
+[Fastbot][2024-12-19 17:52:51.060] 
+
+[Fastbot][2024-12-19 17:52:51.063] // current activity is com.elinkway.infinitemovies.account.activity.PhoneLoginActivity
+[Fastbot][2024-12-19 17:52:51.082] // Event id: 1
+[Fastbot][2024-12-19 17:52:51.130] action type: CLICK
+[Fastbot][2024-12-19 17:52:51.131] rpc cost time: 31
+[Fastbot][2024-12-19 17:52:51.144] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:52:51.151]  event time:86
+[Fastbot][2024-12-19 17:52:51.152] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:52:51.186] :Sending Touch (ACTION_DOWN): 0:(640.0,1766.0)
+[Fastbot][2024-12-19 17:52:51.191] :Sending Touch (ACTION_UP): 0:(640.0,1766.0)
+[Fastbot][2024-12-19 17:52:51.200] Sleeping for 162 milliseconds
+[Fastbot][2024-12-19 17:52:51.270]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:52:51.364] // current activity is com.elinkway.infinitemovies.account.activity.LoginActivity
+[Fastbot][2024-12-19 17:52:52.286] // top activity is null or the corresponding tree is null, accessibility maybe error, fuzz needed.
+[Fastbot][2024-12-19 17:52:52.307]  event time:940
+[Fastbot][2024-12-19 17:52:52.308] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:52:52.323] :Sending Touch (ACTION_DOWN): 0:(339.0,679.0)
+[Fastbot][2024-12-19 17:52:52.327] :Sending Touch (ACTION_MOVE): 0:(339.44528,675.7326)
+[Fastbot][2024-12-19 17:52:52.331] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.357] :Sending Touch (ACTION_MOVE): 0:(340.9634,674.40533)
+[Fastbot][2024-12-19 17:52:52.362] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.387] :Sending Touch (ACTION_MOVE): 0:(342.83774,670.2614)
+[Fastbot][2024-12-19 17:52:52.392] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.418] :Sending Touch (ACTION_MOVE): 0:(344.0888,669.8149)
+[Fastbot][2024-12-19 17:52:52.424] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.450] :Sending Touch (ACTION_MOVE): 0:(344.7892,669.0382)
+[Fastbot][2024-12-19 17:52:52.456] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.482] :Sending Touch (ACTION_MOVE): 0:(346.14166,659.30286)
+[Fastbot][2024-12-19 17:52:52.488] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.515] :Sending Touch (ACTION_MOVE): 0:(347.3876,654.8508)
+[Fastbot][2024-12-19 17:52:52.526] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:52:52.556] :Sending Touch (ACTION_UP): 0:(347.45074,654.2043)
+[Fastbot][2024-12-19 17:52:52.568] :Sending Trackball (ACTION_MOVE): 0:(-2.0,88.0)
+[Fastbot][2024-12-19 17:52:52.576] :Sending Trackball (ACTION_MOVE): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:52.586] :Sending Trackball (ACTION_MOVE): 0:(-3.0,88.0)
+[Fastbot][2024-12-19 17:52:52.610] :Sending Trackball (ACTION_MOVE): 0:(3.0,88.0)
+[Fastbot][2024-12-19 17:52:52.614] :Sending Trackball (ACTION_MOVE): 0:(-2.0,88.0)
+[Fastbot][2024-12-19 17:52:52.619] :Sending Trackball (ACTION_MOVE): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:52.627] :Sending Trackball (ACTION_MOVE): 0:(1.0,88.0)
+[Fastbot][2024-12-19 17:52:52.631] :Sending Trackball (ACTION_MOVE): 0:(1.0,88.0)
+[Fastbot][2024-12-19 17:52:52.635] :Sending Trackball (ACTION_MOVE): 0:(-4.0,88.0)
+[Fastbot][2024-12-19 17:52:52.638] :Sending Trackball (ACTION_MOVE): 0:(-1.0,88.0)
+[Fastbot][2024-12-19 17:52:52.646] :Sending Trackball (ACTION_DOWN): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:52.649] :Sending Trackball (ACTION_UP): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:52.656] :Sending Touch (ACTION_DOWN): 0:(725.0,693.0)
+[Fastbot][2024-12-19 17:52:52.661] Wait Event for 867 milliseconds
+[Fastbot][2024-12-19 17:52:53.531] :Sending Touch (ACTION_UP): 0:(725.0,693.0)
+[Fastbot][2024-12-19 17:52:53.544] :Sending Trackball (ACTION_MOVE): 0:(-5.0,88.0)
+[Fastbot][2024-12-19 17:52:53.550] :Sending Trackball (ACTION_MOVE): 0:(4.0,88.0)
+[Fastbot][2024-12-19 17:52:53.559] :Sending Trackball (ACTION_MOVE): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:53.563] :Sending Trackball (ACTION_MOVE): 0:(-1.0,88.0)
+[Fastbot][2024-12-19 17:52:53.568] :Sending Trackball (ACTION_MOVE): 0:(3.0,88.0)
+[Fastbot][2024-12-19 17:52:53.573] :Sending Trackball (ACTION_MOVE): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:53.577] :Sending Trackball (ACTION_MOVE): 0:(-1.0,88.0)
+[Fastbot][2024-12-19 17:52:53.582] :Sending Trackball (ACTION_MOVE): 0:(2.0,88.0)
+[Fastbot][2024-12-19 17:52:53.587] :Sending Trackball (ACTION_MOVE): 0:(4.0,88.0)
+[Fastbot][2024-12-19 17:52:53.591] :Sending Trackball (ACTION_MOVE): 0:(-2.0,88.0)
+[Fastbot][2024-12-19 17:52:53.594] :Sending Trackball (ACTION_DOWN): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:53.598] :Sending Trackball (ACTION_UP): 0:(0.0,88.0)
+[Fastbot][2024-12-19 17:52:53.603] :Sending Touch (ACTION_DOWN): 0:(892.0,631.0)
+[Fastbot][2024-12-19 17:52:53.607] :Sending Touch (ACTION_MOVE): 0:(882.67535,630.0559)
+[Fastbot][2024-12-19 17:52:53.610] Wait Event for 40 milliseconds
+[Fastbot][2024-12-19 17:52:53.653] :Sending Touch (ACTION_MOVE): 0:(877.3831,629.69324)
+[Fastbot][2024-12-19 17:52:53.658] Wait Event for 40 milliseconds
+[Fastbot][2024-12-19 17:52:53.703] :Sending Touch (ACTION_MOVE): 0:(871.3212,628.54395)
+[Fastbot][2024-12-19 17:52:53.707] Wait Event for 40 milliseconds
+[Fastbot][2024-12-19 17:52:53.753] :Sending Touch (ACTION_UP): 0:(868.41876,627.57007)
+[Fastbot][2024-12-19 17:52:53.777] :Sending Key (ACTION_DOWN): 187    // KEYCODE_APP_SWITCH
+[Fastbot][2024-12-19 17:52:53.789] :Sending Key (ACTION_UP): 187    // KEYCODE_APP_SWITCH
+[Fastbot][2024-12-19 17:52:53.802] Sleeping for 500 milliseconds
+[Fastbot][2024-12-19 17:52:53.871] // the top activity is com.vivo.upslide.recents.RecentsActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:52:53.871]     // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+[Fastbot][2024-12-19 17:52:54.310] :Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+[Fastbot][2024-12-19 17:52:54.326] :Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+[Fastbot][2024-12-19 17:52:54.351]     // activityResuming(com.bbk.launcher2)
+[Fastbot][2024-12-19 17:52:54.352]     // Rejecting resume of package com.bbk.launcher2
+[Fastbot][2024-12-19 17:52:54.392] :Sending Touch (ACTION_DOWN): 0:(548.0,887.0)
+[Fastbot][2024-12-19 17:52:54.431] Wait Event for 30 milliseconds
+[Fastbot][2024-12-19 17:52:54.501] :Sending Touch (ACTION_UP): 0:(548.0,887.0)
+[Fastbot][2024-12-19 17:52:54.513] // the top activity is com.bbk.launcher2.Launcher, not testing app, need inject restart app
+[Fastbot][2024-12-19 17:52:54.518] Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SplashActivity;end
+[Fastbot][2024-12-19 17:52:54.527] // the top activity is com.elinkway.infinitemovies.ui.activity.SplashActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:52:54.527]     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SplashActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:52:54.530]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:52:54.543] Sleeping for 6000 milliseconds
+[Fastbot][2024-12-19 17:53:00.552] // Event id: 75
+[Fastbot][2024-12-19 17:53:00.559] action type: CLICK
+[Fastbot][2024-12-19 17:53:00.559] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:00.564] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:00.567]  event time:22
+[Fastbot][2024-12-19 17:53:00.568] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:00.598] :Sending Touch (ACTION_DOWN): 0:(875.0,1279.0)
+[Fastbot][2024-12-19 17:53:00.602] :Sending Touch (ACTION_UP): 0:(875.0,1279.0)
+[Fastbot][2024-12-19 17:53:00.612] Sleeping for 188 milliseconds
+[Fastbot][2024-12-19 17:53:00.631] // the top activity is com.elinkway.infinitemovies.account.activity.VerifyIdentityActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:00.632]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.account.activity.VerifyIdentityActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:00.801] // current activity is com.elinkway.infinitemovies.account.activity.VerifyIdentityActivity
+[Fastbot][2024-12-19 17:53:00.895] // Event id: 79
+[Fastbot][2024-12-19 17:53:00.898] action type: CLICK
+[Fastbot][2024-12-19 17:53:00.898] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:00.899] Input text is 登录解锁收藏功能
+[Fastbot][2024-12-19 17:53:00.899] MonkeyIMEEvent added 登录解锁收藏功能
+[Fastbot][2024-12-19 17:53:00.901]  event time:99
+[Fastbot][2024-12-19 17:53:00.902] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:00.914] :Sending Touch (ACTION_DOWN): 0:(441.0,1141.0)
+[Fastbot][2024-12-19 17:53:00.922] :Sending Touch (ACTION_UP): 0:(441.0,1141.0)
+[Fastbot][2024-12-19 17:53:00.936] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:00.937] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:01.089] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:01.090] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:01.242] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:01.246] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:01.399] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:01.401] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:01.554] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:01.561] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:01.715] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:01.722] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:01.879] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:01.880] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:02.033] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:02.037] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:02.200] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:02.211] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:02.375] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:02.380] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:02.539] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:02.544] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:02.704] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:02.710] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:02.866] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:02.868] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:03.024] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:03.028] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:03.183] Sleeping for 142 milliseconds
+[Fastbot][2024-12-19 17:53:03.351] // Event id: 84
+[Fastbot][2024-12-19 17:53:03.368] action type: CLICK
+[Fastbot][2024-12-19 17:53:03.370] rpc cost time: 13
+[Fastbot][2024-12-19 17:53:03.380] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:03.388]  event time:57
+[Fastbot][2024-12-19 17:53:03.389] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:03.416] :Sending Touch (ACTION_DOWN): 0:(880.0,1621.0)
+[Fastbot][2024-12-19 17:53:03.420] :Sending Touch (ACTION_UP): 0:(880.0,1621.0)
+[Fastbot][2024-12-19 17:53:03.424] Sleeping for 178 milliseconds
+[Fastbot][2024-12-19 17:53:03.631] // Event id: 88
+[Fastbot][2024-12-19 17:53:03.640] action type: CLICK
+[Fastbot][2024-12-19 17:53:03.641] rpc cost time: 5
+[Fastbot][2024-12-19 17:53:03.647] Input text is 一键登录
+[Fastbot][2024-12-19 17:53:03.649] MonkeyIMEEvent added 一键登录
+[Fastbot][2024-12-19 17:53:03.655]  event time:46
+[Fastbot][2024-12-19 17:53:03.656] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:03.684] :Sending Touch (ACTION_DOWN): 0:(381.0,1418.0)
+[Fastbot][2024-12-19 17:53:03.689] :Sending Touch (ACTION_UP): 0:(381.0,1418.0)
+[Fastbot][2024-12-19 17:53:03.704] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:03.712] :Is accepting text: false
+[Fastbot][2024-12-19 17:53:03.868] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:03.872] :Is accepting text: true
+[Fastbot][2024-12-19 17:53:04.175] :Trying to send Input (一键登录)
+[Fastbot][2024-12-19 17:53:04.177] :Input (一键登录) is successfully sent: false
+[Fastbot][2024-12-19 17:53:04.178] :Input (一键登录) is not sent. Please check if the adb keyboard is installed.
+[Fastbot][2024-12-19 17:53:04.183] Sleeping for 139 milliseconds
+[Fastbot][2024-12-19 17:53:04.343] // Event id: 93
+[Fastbot][2024-12-19 17:53:04.357] action type: CLICK
+[Fastbot][2024-12-19 17:53:04.359] rpc cost time: 11
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:04.370]  event time:44
+[Fastbot][2024-12-19 17:53:04.372] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:04.401] :Sending Touch (ACTION_DOWN): 0:(964.0,459.0)
+[Fastbot][2024-12-19 17:53:04.406] :Sending Touch (ACTION_UP): 0:(964.0,459.0)
+[Fastbot][2024-12-19 17:53:04.410] Sleeping for 184 milliseconds
+[Fastbot][2024-12-19 17:53:04.412]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:04.477]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:04.597] // current activity is com.elinkway.infinitemovies.ui.activity.AuthorDetailActivity
+[Fastbot][2024-12-19 17:53:04.817] // Event id: 97
+[Fastbot][2024-12-19 17:53:04.833] action type: CLICK
+[Fastbot][2024-12-19 17:53:04.834] rpc cost time: 3
+[Fastbot][2024-12-19 17:53:04.836] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:04.838]  event time:239
+[Fastbot][2024-12-19 17:53:04.838] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:04.846] :Sending Touch (ACTION_DOWN): 0:(289.0,824.0)
+[Fastbot][2024-12-19 17:53:04.848] :Sending Touch (ACTION_UP): 0:(289.0,824.0)
+[Fastbot][2024-12-19 17:53:04.857] Sleeping for 122 milliseconds
+[Fastbot][2024-12-19 17:53:04.874] // the top activity is com.elinkway.infinitemovies.play.medium.MediumVideoDetailActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:04.874]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.play.medium.MediumVideoDetailActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:04.980] // current activity is com.elinkway.infinitemovies.play.medium.MediumVideoDetailActivity
+[Fastbot][2024-12-19 17:53:05.086] // Event id: 101
+[Fastbot][2024-12-19 17:53:05.090] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:05.090] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:05.094]  event time:112
+[Fastbot][2024-12-19 17:53:05.094] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:05.104] :Sending Touch (ACTION_DOWN): 0:(540.0,1409.0)
+[Fastbot][2024-12-19 17:53:05.109] :Sending Touch (ACTION_MOVE): 0:(540.0,1409.0)
+[Fastbot][2024-12-19 17:53:05.113] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.135] :Sending Touch (ACTION_MOVE): 0:(540.0,1275.3)
+[Fastbot][2024-12-19 17:53:05.137] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.159] :Sending Touch (ACTION_MOVE): 0:(540.0,1141.6)
+[Fastbot][2024-12-19 17:53:05.161] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.182] :Sending Touch (ACTION_MOVE): 0:(540.0,1007.9)
+[Fastbot][2024-12-19 17:53:05.184] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.207] :Sending Touch (ACTION_MOVE): 0:(540.0,874.2)
+[Fastbot][2024-12-19 17:53:05.209] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.230] :Sending Touch (ACTION_MOVE): 0:(540.0,740.5)
+[Fastbot][2024-12-19 17:53:05.232] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.253] :Sending Touch (ACTION_MOVE): 0:(540.0,606.8)
+[Fastbot][2024-12-19 17:53:05.256] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.279] :Sending Touch (ACTION_MOVE): 0:(540.0,473.10004)
+[Fastbot][2024-12-19 17:53:05.281]     //[calendar_time:2024-12-19 17:53:05.280  system_uptime:13319559]
+[Fastbot][2024-12-19 17:53:05.281]     // Sending event #100
+[Fastbot][2024-12-19 17:53:05.282] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.304] :Sending Touch (ACTION_MOVE): 0:(540.0,339.40002)
+[Fastbot][2024-12-19 17:53:05.305] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.328] :Sending Touch (ACTION_MOVE): 0:(540.0,205.70007)
+[Fastbot][2024-12-19 17:53:05.331] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:05.353] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:05.356] Sleeping for 186 milliseconds
+[Fastbot][2024-12-19 17:53:05.841] // Event id: 125
+[Fastbot][2024-12-19 17:53:06.747] action type: CLICK
+[Fastbot][2024-12-19 17:53:06.747] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:06.751] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:06.758]  event time:1213
+[Fastbot][2024-12-19 17:53:06.758] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:06.788] :Sending Touch (ACTION_DOWN): 0:(568.0,1987.0)
+[Fastbot][2024-12-19 17:53:06.794] :Sending Touch (ACTION_UP): 0:(568.0,1987.0)
+[Fastbot][2024-12-19 17:53:06.797] Sleeping for 120 milliseconds
+[Fastbot][2024-12-19 17:53:06.999] // Event id: 129
+[Fastbot][2024-12-19 17:53:07.008] action type: CLICK
+[Fastbot][2024-12-19 17:53:07.008] rpc cost time: 6
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:07.011]  event time:88
+[Fastbot][2024-12-19 17:53:07.012] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:07.025] :Sending Touch (ACTION_DOWN): 0:(47.0,2001.0)
+[Fastbot][2024-12-19 17:53:07.040] :Sending Touch (ACTION_UP): 0:(47.0,2001.0)
+[Fastbot][2024-12-19 17:53:07.043] Sleeping for 141 milliseconds
+[Fastbot][2024-12-19 17:53:07.046]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:07.079] // the top activity is com.elinkway.infinitemovies.play.view.MediumImmersionVideoActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:07.079]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.play.view.MediumImmersionVideoActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:07.185] // current activity is com.elinkway.infinitemovies.play.view.MediumImmersionVideoActivity
+[Fastbot][2024-12-19 17:53:07.524] // Event id: 133
+[Fastbot][2024-12-19 17:53:07.532] action type: CLICK
+[Fastbot][2024-12-19 17:53:07.532] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:07.537] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:07.541]  event time:355
+[Fastbot][2024-12-19 17:53:07.542] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:07.576] :Sending Touch (ACTION_DOWN): 0:(1014.0,1436.0)
+[Fastbot][2024-12-19 17:53:07.580] :Sending Touch (ACTION_UP): 0:(1014.0,1436.0)
+[Fastbot][2024-12-19 17:53:07.582] Sleeping for 164 milliseconds
+[Fastbot][2024-12-19 17:53:07.842] // Event id: 137
+[Fastbot][2024-12-19 17:53:07.844] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:07.844] rpc cost time: 1
+[Fastbot][2024-12-19 17:53:07.849]  event time:101
+[Fastbot][2024-12-19 17:53:07.853] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:07.867] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:07.873] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:07.875] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:07.907] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:07.911] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:07.935] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:07.940] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:07.966] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:07.979] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.011] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:08.018] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.060] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:08.063] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.089] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:08.114] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.147] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:08.164] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.208] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:08.225] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.251] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:08.255] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:08.278] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:08.284] Sleeping for 197 milliseconds
+[Fastbot][2024-12-19 17:53:08.511] // Event id: 161
+[Fastbot][2024-12-19 17:53:08.521] action type: CLICK
+[Fastbot][2024-12-19 17:53:08.522] rpc cost time: 10
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:08.530]  event time:46
+[Fastbot][2024-12-19 17:53:08.535] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:08.572] :Sending Touch (ACTION_DOWN): 0:(579.0,420.0)
+[Fastbot][2024-12-19 17:53:08.576] :Sending Touch (ACTION_UP): 0:(579.0,420.0)
+[Fastbot][2024-12-19 17:53:08.579] Sleeping for 112 milliseconds
+[Fastbot][2024-12-19 17:53:08.702] // Event id: 165
+[Fastbot][2024-12-19 17:53:08.708] action type: CLICK
+[Fastbot][2024-12-19 17:53:08.711] rpc cost time: 6
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:08.718]  event time:25
+[Fastbot][2024-12-19 17:53:08.719] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:08.760] :Sending Touch (ACTION_DOWN): 0:(992.0,1315.0)
+[Fastbot][2024-12-19 17:53:08.766] :Sending Touch (ACTION_UP): 0:(992.0,1315.0)
+[Fastbot][2024-12-19 17:53:08.770] Sleeping for 189 milliseconds
+[Fastbot][2024-12-19 17:53:08.903] // the top activity is com.elinkway.infinitemovies.account.activity.LoginActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:08.906]     // Rejecting start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.account.activity.LoginActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:08.970] // Event id: 169
+[Fastbot][2024-12-19 17:53:08.984] action type: CLICK
+[Fastbot][2024-12-19 17:53:08.985] rpc cost time: 10
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:08.990]  event time:29
+[Fastbot][2024-12-19 17:53:08.990] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:09.011] :Sending Touch (ACTION_DOWN): 0:(74.0,1754.0)
+[Fastbot][2024-12-19 17:53:09.017] :Sending Touch (ACTION_UP): 0:(74.0,1754.0)
+[Fastbot][2024-12-19 17:53:09.027] Sleeping for 198 milliseconds
+[Fastbot][2024-12-19 17:53:09.249] // Event id: 173
+[Fastbot][2024-12-19 17:53:09.259] action type: CLICK
+[Fastbot][2024-12-19 17:53:09.261] rpc cost time: 9
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:09.271]  event time:42
+[Fastbot][2024-12-19 17:53:09.272] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:09.299] :Sending Touch (ACTION_DOWN): 0:(617.0,964.0)
+[Fastbot][2024-12-19 17:53:09.304] :Sending Touch (ACTION_UP): 0:(617.0,964.0)
+[Fastbot][2024-12-19 17:53:09.325] Sleeping for 167 milliseconds
+[Fastbot][2024-12-19 17:53:09.520] // Event id: 177
+[Fastbot][2024-12-19 17:53:09.535] action type: CLICK
+[Fastbot][2024-12-19 17:53:09.539] rpc cost time: 12
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:09.551]  event time:43
+[Fastbot][2024-12-19 17:53:09.553] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:09.567] :Sending Touch (ACTION_DOWN): 0:(1059.0,1766.0)
+[Fastbot][2024-12-19 17:53:09.578] :Sending Touch (ACTION_UP): 0:(1059.0,1766.0)
+[Fastbot][2024-12-19 17:53:09.582] Sleeping for 195 milliseconds
+[Fastbot][2024-12-19 17:53:09.804] // Event id: 181
+[Fastbot][2024-12-19 17:53:09.814] action type: CLICK
+[Fastbot][2024-12-19 17:53:09.816] rpc cost time: 9
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:09.824]  event time:40
+[Fastbot][2024-12-19 17:53:09.825] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:09.843] :Sending Touch (ACTION_DOWN): 0:(69.0,169.0)
+[Fastbot][2024-12-19 17:53:09.848] :Sending Touch (ACTION_UP): 0:(69.0,169.0)
+[Fastbot][2024-12-19 17:53:09.854] Sleeping for 187 milliseconds
+[Fastbot][2024-12-19 17:53:10.054] // Event id: 185
+[Fastbot][2024-12-19 17:53:10.057] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:10.059] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:10.068]  event time:23
+[Fastbot][2024-12-19 17:53:10.069] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:10.078] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:10.086] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:10.088] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.111] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:53:10.114] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.136] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:53:10.139] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.162] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:53:10.166] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.189] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:53:10.195] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.217] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:53:10.220] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.242] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:53:10.247] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.274] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:53:10.279] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.301] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:53:10.305] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.329] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:53:10.334] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.357] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:10.362] Sleeping for 172 milliseconds
+[Fastbot][2024-12-19 17:53:10.543] // Event id: 209
+[Fastbot][2024-12-19 17:53:10.549] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:10.550] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:10.556]  event time:19
+[Fastbot][2024-12-19 17:53:10.557] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:10.579] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:10.582] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:10.585] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.614] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:10.619] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.640] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:10.642] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.664] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:10.666] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.688] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:10.691] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.712] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:10.714] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.737] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:10.740] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.762] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:10.765] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.787] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:10.790] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.811] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:10.815]     //[calendar_time:2024-12-19 17:53:10.814  system_uptime:13325093]
+[Fastbot][2024-12-19 17:53:10.815]     // Sending event #200
+[Fastbot][2024-12-19 17:53:10.816] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:10.838] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:10.840] Sleeping for 194 milliseconds
+[Fastbot][2024-12-19 17:53:11.297] // Event id: 233
+[Fastbot][2024-12-19 17:53:11.299] action type: CLICK
+[Fastbot][2024-12-19 17:53:11.300] rpc cost time: 2
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:11.307] // generate fuzzing action.
+[Fastbot][2024-12-19 17:53:11.371]  event time:334
+[Fastbot][2024-12-19 17:53:11.372] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:11.389] :Sending Touch (ACTION_DOWN): 0:(146.0,212.0)
+[Fastbot][2024-12-19 17:53:11.391] :Sending Touch (ACTION_UP): 0:(146.0,212.0)
+[Fastbot][2024-12-19 17:53:11.393] Sleeping for 134 milliseconds
+[Fastbot][2024-12-19 17:53:11.529] :Sending Key (ACTION_DOWN): 187    // KEYCODE_APP_SWITCH
+[Fastbot][2024-12-19 17:53:11.532] :Sending Key (ACTION_UP): 187    // KEYCODE_APP_SWITCH
+[Fastbot][2024-12-19 17:53:11.536] Sleeping for 500 milliseconds
+[Fastbot][2024-12-19 17:53:11.642] // the top activity is com.vivo.upslide.recents.RecentsActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:11.642]     // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+[Fastbot][2024-12-19 17:53:12.038] :Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+[Fastbot][2024-12-19 17:53:12.043] :Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+[Fastbot][2024-12-19 17:53:12.074]     // activityResuming(com.bbk.launcher2)
+[Fastbot][2024-12-19 17:53:12.074]     // Rejecting resume of package com.bbk.launcher2
+[Fastbot][2024-12-19 17:53:12.135] :Sending Touch (ACTION_DOWN): 0:(478.0,1983.0)
+[Fastbot][2024-12-19 17:53:12.189] :Sending Touch (ACTION_MOVE): 0:(475.60327,1981.1528)
+[Fastbot][2024-12-19 17:53:12.192] Wait Event for 28 milliseconds
+[Fastbot][2024-12-19 17:53:12.223] :Sending Touch (ACTION_MOVE): 0:(466.98608,1977.6246)
+[Fastbot][2024-12-19 17:53:12.226] Wait Event for 28 milliseconds
+[Fastbot][2024-12-19 17:53:12.261] :Sending Touch (ACTION_MOVE): 0:(458.47983,1974.8663)
+[Fastbot][2024-12-19 17:53:12.263] Wait Event for 28 milliseconds
+[Fastbot][2024-12-19 17:53:12.292] :Sending Touch (ACTION_MOVE): 0:(456.74112,1973.9546)
+[Fastbot][2024-12-19 17:53:12.314] Wait Event for 28 milliseconds
+[Fastbot][2024-12-19 17:53:12.343] :Sending Touch (ACTION_MOVE): 0:(446.51352,1968.2028)
+[Fastbot][2024-12-19 17:53:12.345] Wait Event for 28 milliseconds
+[Fastbot][2024-12-19 17:53:12.376] :Sending Touch (ACTION_UP): 0:(434.89987,1962.6102)
+[Fastbot][2024-12-19 17:53:12.443] Shell command settings put global always_finish_activities 1 status was 0
+[Fastbot][2024-12-19 17:53:12.447] :Sending Key (ACTION_DOWN): 187    // KEYCODE_APP_SWITCH
+[Fastbot][2024-12-19 17:53:12.457] :Sending Key (ACTION_UP): 187    // KEYCODE_APP_SWITCH
+[Fastbot][2024-12-19 17:53:12.462] Sleeping for 500 milliseconds
+[Fastbot][2024-12-19 17:53:12.483] // the top activity is com.vivo.upslide.recents.RecentsActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:12.487]     // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+[Fastbot][2024-12-19 17:53:12.966] :Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+[Fastbot][2024-12-19 17:53:12.973] :Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+[Fastbot][2024-12-19 17:53:13.011] :Sending Touch (ACTION_DOWN): 0:(667.0,374.0)
+[Fastbot][2024-12-19 17:53:13.020] :Sending Touch (ACTION_MOVE): 0:(679.1075,374.5813)
+[Fastbot][2024-12-19 17:53:13.022] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.056] :Sending Touch (ACTION_MOVE): 0:(685.04095,375.20828)
+[Fastbot][2024-12-19 17:53:13.059] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.082] :Sending Touch (ACTION_MOVE): 0:(689.8996,376.5369)
+[Fastbot][2024-12-19 17:53:13.086] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.110] :Sending Touch (ACTION_MOVE): 0:(693.3291,377.67807)
+[Fastbot][2024-12-19 17:53:13.112] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.139] :Sending Touch (ACTION_MOVE): 0:(704.3828,379.85654)
+[Fastbot][2024-12-19 17:53:13.143] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.168] :Sending Touch (ACTION_MOVE): 0:(714.12256,380.69073)
+[Fastbot][2024-12-19 17:53:13.172] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.196] :Sending Touch (ACTION_MOVE): 0:(719.5026,382.17514)
+[Fastbot][2024-12-19 17:53:13.198] Wait Event for 22 milliseconds
+[Fastbot][2024-12-19 17:53:13.223] :Sending Touch (ACTION_UP): 0:(731.47473,383.33887)
+[Fastbot][2024-12-19 17:53:13.228] :Sending Key (ACTION_DOWN): 10    // KEYCODE_3
+[Fastbot][2024-12-19 17:53:13.230] :Sending Key (ACTION_UP): 10    // KEYCODE_3
+[Fastbot][2024-12-19 17:53:13.259] :Sending rotation degree=3, persist=true
+[Fastbot][2024-12-19 17:53:13.269] :Sending rotation degree=2, persist=true
+[Fastbot][2024-12-19 17:53:13.329] // the top activity is org.qiyi.android.action.IntentActionAliasActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:13.329]     // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.qiyi.video/org.qiyi.android.action.IntentActionAliasActivity } in package com.qiyi.video
+[Fastbot][2024-12-19 17:53:13.489] // Event id: 290
+[Fastbot][2024-12-19 17:53:13.584] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:13.595] rpc cost time: 15
+[Fastbot][2024-12-19 17:53:13.603]  event time:309
+[Fastbot][2024-12-19 17:53:13.604] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:13.622] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.628] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.630] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.655] :Sending Touch (ACTION_MOVE): 0:(486.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.657] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.679] :Sending Touch (ACTION_MOVE): 0:(432.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.681] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.706] :Sending Touch (ACTION_MOVE): 0:(378.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.709] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.731] :Sending Touch (ACTION_MOVE): 0:(324.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.742] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.764] :Sending Touch (ACTION_MOVE): 0:(270.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.768] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.791] :Sending Touch (ACTION_MOVE): 0:(216.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.792] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.814] :Sending Touch (ACTION_MOVE): 0:(162.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.818] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.840] :Sending Touch (ACTION_MOVE): 0:(108.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.842] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.864] :Sending Touch (ACTION_MOVE): 0:(54.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.869] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:13.891] :Sending Touch (ACTION_UP): 0:(0.0,1080.0)
+[Fastbot][2024-12-19 17:53:13.893] Sleeping for 185 milliseconds
+[Fastbot][2024-12-19 17:53:14.080] // the top activity is com.bbk.launcher2.Launcher, not testing app, need inject restart app
+[Fastbot][2024-12-19 17:53:14.082] Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SplashActivity;end
+[Fastbot][2024-12-19 17:53:14.089] // the top activity is com.elinkway.infinitemovies.ui.activity.SplashActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:14.089]     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SplashActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:14.091]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:14.099] Sleeping for 6000 milliseconds
+[Fastbot][2024-12-19 17:53:20.129] // Event id: 316
+[Fastbot][2024-12-19 17:53:20.172] action type: CLICK
+[Fastbot][2024-12-19 17:53:20.173] rpc cost time: 6
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:20.183]  event time:82
+[Fastbot][2024-12-19 17:53:20.185] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:20.198] :Sending Touch (ACTION_DOWN): 0:(976.0,88.0)
+[Fastbot][2024-12-19 17:53:20.202] :Sending Touch (ACTION_UP): 0:(976.0,88.0)
+[Fastbot][2024-12-19 17:53:20.208] Sleeping for 141 milliseconds
+[Fastbot][2024-12-19 17:53:20.217] // the top activity is com.didichuxing.doraemonkit.kit.core.UniversalActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:20.220]     // Allowing start of Intent { cmp=com.le123.ysdq/com.didichuxing.doraemonkit.kit.core.UniversalActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:20.350] // current activity is com.didichuxing.doraemonkit.kit.core.UniversalActivity
+[Fastbot][2024-12-19 17:53:20.476] // Event id: 320
+[Fastbot][2024-12-19 17:53:20.485] action type: CLICK
+[Fastbot][2024-12-19 17:53:20.486] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:20.488] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:20.490]  event time:139
+[Fastbot][2024-12-19 17:53:20.491] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:20.513] :Sending Touch (ACTION_DOWN): 0:(1021.0,1401.0)
+[Fastbot][2024-12-19 17:53:20.515] :Sending Touch (ACTION_UP): 0:(1021.0,1401.0)
+[Fastbot][2024-12-19 17:53:20.517] Sleeping for 149 milliseconds
+[Fastbot][2024-12-19 17:53:20.675] // Event id: 324
+[Fastbot][2024-12-19 17:53:20.679] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:20.680] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:20.683]  event time:15
+[Fastbot][2024-12-19 17:53:20.683] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:20.699] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:20.702] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:20.703] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.726] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:53:20.729] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.751] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:53:20.752] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.775] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:53:20.780] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.802] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:53:20.805] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.828] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:53:20.832] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.855] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:53:20.861] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.883] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:53:20.887] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.910] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:53:20.913] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.937] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:53:20.939] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:20.962] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:20.969] Sleeping for 125 milliseconds
+[Fastbot][2024-12-19 17:53:21.114] // Event id: 348
+[Fastbot][2024-12-19 17:53:21.127] action type: CLICK
+[Fastbot][2024-12-19 17:53:21.128] rpc cost time: 10
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:21.142]  event time:44
+[Fastbot][2024-12-19 17:53:21.143] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:21.155]     //[calendar_time:2024-12-19 17:53:21.155  system_uptime:13335433]
+[Fastbot][2024-12-19 17:53:21.156]     // Sending event #300
+[Fastbot][2024-12-19 17:53:21.157]     //[calendar_time:2024-12-19 17:53:21.157  system_uptime:13335435]
+[Fastbot][2024-12-19 17:53:21.158]     // Sending event #300
+[Fastbot][2024-12-19 17:53:21.159] :Sending Touch (ACTION_DOWN): 0:(910.0,242.0)
+[Fastbot][2024-12-19 17:53:21.169] :Sending Touch (ACTION_UP): 0:(910.0,242.0)
+[Fastbot][2024-12-19 17:53:21.172] Sleeping for 122 milliseconds
+[Fastbot][2024-12-19 17:53:21.175]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:21.296] // current activity is com.elinkway.infinitemovies.play.view.MediumImmersionVideoActivity
+[Fastbot][2024-12-19 17:53:21.353] // Event id: 352
+[Fastbot][2024-12-19 17:53:21.397] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:21.398] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:21.401]  event time:105
+[Fastbot][2024-12-19 17:53:21.402] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:21.412] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:21.414] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:21.418] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.442] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:21.444] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.465] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:21.466] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.488] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:21.493] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.516] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:21.518] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.540] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:21.542] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.565] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:21.568] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.590] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:21.592] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.614] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:21.617] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.641] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:21.644] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:21.666] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:21.669] Sleeping for 194 milliseconds
+[Fastbot][2024-12-19 17:53:21.889] // Event id: 376
+[Fastbot][2024-12-19 17:53:21.939] action type: CLICK
+[Fastbot][2024-12-19 17:53:21.941] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:21.946] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:21.949]  event time:84
+[Fastbot][2024-12-19 17:53:21.950] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:21.964] :Sending Touch (ACTION_DOWN): 0:(79.0,105.0)
+[Fastbot][2024-12-19 17:53:21.967] :Sending Touch (ACTION_UP): 0:(79.0,105.0)
+[Fastbot][2024-12-19 17:53:21.970] Sleeping for 173 milliseconds
+[Fastbot][2024-12-19 17:53:22.158] // Event id: 380
+[Fastbot][2024-12-19 17:53:22.220] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:22.223] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:22.228]  event time:83
+[Fastbot][2024-12-19 17:53:22.229] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:22.245] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:22.249] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:22.252] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.274] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:22.277] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.299] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:22.302] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.325] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:22.329] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.356] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:22.364] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.392] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:22.394] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.417] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:22.421] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.442] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:22.445] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.475] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:22.482] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.504] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:22.509] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.531] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:22.536] Sleeping for 130 milliseconds
+[Fastbot][2024-12-19 17:53:22.694] // Event id: 404
+[Fastbot][2024-12-19 17:53:22.725] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:22.726] rpc cost time: 10
+[Fastbot][2024-12-19 17:53:22.731]  event time:60
+[Fastbot][2024-12-19 17:53:22.732] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:22.747] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:22.755] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:22.758] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.781] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:22.783] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.806] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:22.808] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.830] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:22.833] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.854] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:22.858] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.881] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:22.884] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.911] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:22.920] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.944] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:22.947] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.970] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:22.974] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:22.996] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:22.999] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.026] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:23.030] Sleeping for 176 milliseconds
+[Fastbot][2024-12-19 17:53:23.222] // Event id: 428
+[Fastbot][2024-12-19 17:53:23.261] action type: CLICK
+[Fastbot][2024-12-19 17:53:23.262] rpc cost time: 15
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:23.271]  event time:62
+[Fastbot][2024-12-19 17:53:23.272] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:23.303] :Sending Touch (ACTION_DOWN): 0:(62.0,190.0)
+[Fastbot][2024-12-19 17:53:23.307] :Sending Touch (ACTION_UP): 0:(62.0,190.0)
+[Fastbot][2024-12-19 17:53:23.312] Sleeping for 125 milliseconds
+[Fastbot][2024-12-19 17:53:23.454] // Event id: 432
+[Fastbot][2024-12-19 17:53:23.478] action type: CLICK
+[Fastbot][2024-12-19 17:53:23.481] rpc cost time: 20
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:23.491]  event time:50
+[Fastbot][2024-12-19 17:53:23.492] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:23.527] :Sending Touch (ACTION_DOWN): 0:(577.0,1584.0)
+[Fastbot][2024-12-19 17:53:23.531] :Sending Touch (ACTION_UP): 0:(577.0,1584.0)
+[Fastbot][2024-12-19 17:53:23.537] Sleeping for 173 milliseconds
+[Fastbot][2024-12-19 17:53:23.724] // Event id: 436
+[Fastbot][2024-12-19 17:53:23.730] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:23.731] rpc cost time: 5
+[Fastbot][2024-12-19 17:53:23.746]  event time:31
+[Fastbot][2024-12-19 17:53:23.749] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:23.771] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:23.777] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:23.779] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.801] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:23.804] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.826] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:23.829] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.851] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:23.855] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.877] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:23.884] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.907] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:23.911] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.934] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:23.938] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.963] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:23.969] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:23.992] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:23.998] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.022]     //[calendar_time:2024-12-19 17:53:24.022  system_uptime:13338300]
+[Fastbot][2024-12-19 17:53:24.023]     // Sending event #400
+[Fastbot][2024-12-19 17:53:24.025]     //[calendar_time:2024-12-19 17:53:24.024  system_uptime:13338303]
+[Fastbot][2024-12-19 17:53:24.025]     // Sending event #400
+[Fastbot][2024-12-19 17:53:24.027] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:24.029] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.052] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:24.055] Sleeping for 173 milliseconds
+[Fastbot][2024-12-19 17:53:24.239] // Event id: 460
+[Fastbot][2024-12-19 17:53:24.247] action type: CLICK
+[Fastbot][2024-12-19 17:53:24.249] rpc cost time: 6
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:24.253]  event time:22
+[Fastbot][2024-12-19 17:53:24.254] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:24.276] :Sending Touch (ACTION_DOWN): 0:(88.0,151.0)
+[Fastbot][2024-12-19 17:53:24.280] :Sending Touch (ACTION_UP): 0:(88.0,151.0)
+[Fastbot][2024-12-19 17:53:24.284] Sleeping for 162 milliseconds
+[Fastbot][2024-12-19 17:53:24.458] // Event id: 464
+[Fastbot][2024-12-19 17:53:24.466] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:24.468] rpc cost time: 7
+[Fastbot][2024-12-19 17:53:24.473]  event time:24
+[Fastbot][2024-12-19 17:53:24.474] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:24.491] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:24.494] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:24.497] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.522] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:24.525] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.553] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:24.555] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.577] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:24.580] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.601] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:24.604] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.626] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:24.630] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.654] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:24.658] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.682] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:24.685] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.708] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:24.712] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.735] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:24.742] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:24.768] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:24.772] Sleeping for 159 milliseconds
+[Fastbot][2024-12-19 17:53:24.799]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:24.936] // current activity is com.elinkway.infinitemovies.ui.activity.AuthorDetailActivity
+[Fastbot][2024-12-19 17:53:25.121] // Event id: 488
+[Fastbot][2024-12-19 17:53:25.133] action type: CLICK
+[Fastbot][2024-12-19 17:53:25.133] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:25.135] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:25.137]  event time:200
+[Fastbot][2024-12-19 17:53:25.137] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:25.144] :Sending Touch (ACTION_DOWN): 0:(32.0,140.0)
+[Fastbot][2024-12-19 17:53:25.147] :Sending Touch (ACTION_UP): 0:(32.0,140.0)
+[Fastbot][2024-12-19 17:53:25.149] Sleeping for 193 milliseconds
+[Fastbot][2024-12-19 17:53:25.365] // Event id: 492
+[Fastbot][2024-12-19 17:53:25.432] action type: CLICK
+[Fastbot][2024-12-19 17:53:25.433] rpc cost time: 16
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:25.439]  event time:93
+[Fastbot][2024-12-19 17:53:25.440] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:25.456] :Sending Touch (ACTION_DOWN): 0:(57.0,138.0)
+[Fastbot][2024-12-19 17:53:25.469] :Sending Touch (ACTION_UP): 0:(57.0,138.0)
+[Fastbot][2024-12-19 17:53:25.472] Sleeping for 197 milliseconds
+[Fastbot][2024-12-19 17:53:25.717] // Event id: 496
+[Fastbot][2024-12-19 17:53:25.728] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:25.730] rpc cost time: 9
+[Fastbot][2024-12-19 17:53:25.737]  event time:64
+[Fastbot][2024-12-19 17:53:25.743] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:25.763] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.766] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.776] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.802] :Sending Touch (ACTION_MOVE): 0:(486.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.804] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.828] :Sending Touch (ACTION_MOVE): 0:(432.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.832] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.856] :Sending Touch (ACTION_MOVE): 0:(378.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.864] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.890] :Sending Touch (ACTION_MOVE): 0:(324.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.897] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.925] :Sending Touch (ACTION_MOVE): 0:(270.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.934] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.956] :Sending Touch (ACTION_MOVE): 0:(216.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.959] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:25.982] :Sending Touch (ACTION_MOVE): 0:(162.0,1203.0)
+[Fastbot][2024-12-19 17:53:25.984] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.007] :Sending Touch (ACTION_MOVE): 0:(108.0,1203.0)
+[Fastbot][2024-12-19 17:53:26.013] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.035] :Sending Touch (ACTION_MOVE): 0:(54.0,1203.0)
+[Fastbot][2024-12-19 17:53:26.038] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.062] :Sending Touch (ACTION_UP): 0:(0.0,1203.0)
+[Fastbot][2024-12-19 17:53:26.066] Sleeping for 155 milliseconds
+[Fastbot][2024-12-19 17:53:26.255] // Event id: 520
+[Fastbot][2024-12-19 17:53:26.293] action type: CLICK
+[Fastbot][2024-12-19 17:53:26.296] rpc cost time: 9
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:26.300]  event time:72
+[Fastbot][2024-12-19 17:53:26.301] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:26.313] :Sending Touch (ACTION_DOWN): 0:(539.0,268.0)
+[Fastbot][2024-12-19 17:53:26.324] :Sending Touch (ACTION_UP): 0:(539.0,268.0)
+[Fastbot][2024-12-19 17:53:26.327] Sleeping for 172 milliseconds
+[Fastbot][2024-12-19 17:53:26.534] // Event id: 524
+[Fastbot][2024-12-19 17:53:26.550] action type: CLICK
+[Fastbot][2024-12-19 17:53:26.551] rpc cost time: 11
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:26.558]  event time:54
+[Fastbot][2024-12-19 17:53:26.560] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:26.578] :Sending Touch (ACTION_DOWN): 0:(73.0,151.0)
+[Fastbot][2024-12-19 17:53:26.586] :Sending Touch (ACTION_UP): 0:(73.0,151.0)
+[Fastbot][2024-12-19 17:53:26.590] Sleeping for 133 milliseconds
+[Fastbot][2024-12-19 17:53:26.787] // Event id: 528
+[Fastbot][2024-12-19 17:53:26.826] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:26.827] rpc cost time: 16
+[Fastbot][2024-12-19 17:53:26.833]  event time:105
+[Fastbot][2024-12-19 17:53:26.834] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:26.857] :Sending Touch (ACTION_DOWN): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:26.860] :Sending Touch (ACTION_MOVE): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:26.865] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.887] :Sending Touch (ACTION_MOVE): 0:(540.0,1277.45)
+[Fastbot][2024-12-19 17:53:26.891] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.914] :Sending Touch (ACTION_MOVE): 0:(540.0,1361.4)
+[Fastbot][2024-12-19 17:53:26.917] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.940] :Sending Touch (ACTION_MOVE): 0:(540.0,1445.35)
+[Fastbot][2024-12-19 17:53:26.944] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.968] :Sending Touch (ACTION_MOVE): 0:(540.0,1529.3)
+[Fastbot][2024-12-19 17:53:26.974] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:26.998] :Sending Touch (ACTION_MOVE): 0:(540.0,1613.25)
+[Fastbot][2024-12-19 17:53:27.006] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.031] :Sending Touch (ACTION_MOVE): 0:(540.0,1697.2)
+[Fastbot][2024-12-19 17:53:27.035] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.060] :Sending Touch (ACTION_MOVE): 0:(540.0,1781.1499)
+[Fastbot][2024-12-19 17:53:27.066] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.093] :Sending Touch (ACTION_MOVE): 0:(540.0,1865.1001)
+[Fastbot][2024-12-19 17:53:27.096] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.123] :Sending Touch (ACTION_MOVE): 0:(540.0,1949.05)
+[Fastbot][2024-12-19 17:53:27.128] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.150] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:27.158] Sleeping for 133 milliseconds
+[Fastbot][2024-12-19 17:53:27.326] // Event id: 552
+[Fastbot][2024-12-19 17:53:27.342] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:27.343] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:27.349]  event time:52
+[Fastbot][2024-12-19 17:53:27.350] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:27.369] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.372] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.375] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.397] :Sending Touch (ACTION_MOVE): 0:(486.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.399] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.423] :Sending Touch (ACTION_MOVE): 0:(432.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.426] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.451] :Sending Touch (ACTION_MOVE): 0:(378.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.459] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.485] :Sending Touch (ACTION_MOVE): 0:(324.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.493] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.517] :Sending Touch (ACTION_MOVE): 0:(270.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.520]     //[calendar_time:2024-12-19 17:53:27.520  system_uptime:13341798]
+[Fastbot][2024-12-19 17:53:27.522]     // Sending event #500
+[Fastbot][2024-12-19 17:53:27.524] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.548] :Sending Touch (ACTION_MOVE): 0:(216.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.554] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.579] :Sending Touch (ACTION_MOVE): 0:(162.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.584] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.611] :Sending Touch (ACTION_MOVE): 0:(108.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.615] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.638] :Sending Touch (ACTION_MOVE): 0:(54.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.643] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:27.667] :Sending Touch (ACTION_UP): 0:(0.0,1203.0)
+[Fastbot][2024-12-19 17:53:27.680] Sleeping for 120 milliseconds
+[Fastbot][2024-12-19 17:53:27.844] // Event id: 576
+[Fastbot][2024-12-19 17:53:27.861] action type: CLICK
+[Fastbot][2024-12-19 17:53:27.862] rpc cost time: 11
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:27.869]  event time:61
+[Fastbot][2024-12-19 17:53:27.870] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:27.898] :Sending Touch (ACTION_DOWN): 0:(1039.0,88.0)
+[Fastbot][2024-12-19 17:53:27.903] :Sending Touch (ACTION_UP): 0:(1039.0,88.0)
+[Fastbot][2024-12-19 17:53:27.908] Sleeping for 120 milliseconds
+[Fastbot][2024-12-19 17:53:27.922] // the top activity is com.didichuxing.doraemonkit.kit.core.UniversalActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:27.924]     // Allowing start of Intent { cmp=com.le123.ysdq/com.didichuxing.doraemonkit.kit.core.UniversalActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:28.030] // current activity is com.didichuxing.doraemonkit.kit.core.UniversalActivity
+[Fastbot][2024-12-19 17:53:28.069] // Event id: 580
+[Fastbot][2024-12-19 17:53:28.074] action type: CLICK
+[Fastbot][2024-12-19 17:53:28.075] rpc cost time: 3
+[Fastbot][2024-12-19 17:53:28.077] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:28.079]  event time:48
+[Fastbot][2024-12-19 17:53:28.080] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:28.090] :Sending Touch (ACTION_DOWN): 0:(87.0,167.0)
+[Fastbot][2024-12-19 17:53:28.091] :Sending Touch (ACTION_UP): 0:(87.0,167.0)
+[Fastbot][2024-12-19 17:53:28.095] Sleeping for 148 milliseconds
+[Fastbot][2024-12-19 17:53:28.249] // Event id: 584
+[Fastbot][2024-12-19 17:53:28.251] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:28.252] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:28.255]  event time:10
+[Fastbot][2024-12-19 17:53:28.255] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:28.262] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:28.266] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:28.270] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.292] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:28.293] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.315] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:28.318] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.340] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:28.341] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.363] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:28.366] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.387] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:28.389] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.411] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:28.413] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.454] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:28.457] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.480] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:28.484] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.510] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:28.513] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:28.538] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:28.542] Sleeping for 162 milliseconds
+[Fastbot][2024-12-19 17:53:28.723] // Event id: 608
+[Fastbot][2024-12-19 17:53:28.738] action type: CLICK
+[Fastbot][2024-12-19 17:53:28.739] rpc cost time: 9
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:28.746]  event time:39
+[Fastbot][2024-12-19 17:53:28.747] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:28.789] :Sending Touch (ACTION_DOWN): 0:(117.0,387.0)
+[Fastbot][2024-12-19 17:53:28.793] :Sending Touch (ACTION_UP): 0:(117.0,387.0)
+[Fastbot][2024-12-19 17:53:28.802] Sleeping for 162 milliseconds
+[Fastbot][2024-12-19 17:53:28.819] // the top activity is com.didichuxing.doraemonkit.kit.core.UniversalActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:28.820]     // Allowing start of Intent { cmp=com.le123.ysdq/com.didichuxing.doraemonkit.kit.core.UniversalActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:29.033] // Event id: 612
+[Fastbot][2024-12-19 17:53:29.036] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:29.037] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:29.043]  event time:76
+[Fastbot][2024-12-19 17:53:29.043] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:29.062] :Sending Touch (ACTION_DOWN): 0:(540.0,1186.5)
+[Fastbot][2024-12-19 17:53:29.074] :Sending Touch (ACTION_MOVE): 0:(540.0,1186.5)
+[Fastbot][2024-12-19 17:53:29.076] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.098] :Sending Touch (ACTION_MOVE): 0:(540.0,1271.15)
+[Fastbot][2024-12-19 17:53:29.100] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.121] :Sending Touch (ACTION_MOVE): 0:(540.0,1355.8)
+[Fastbot][2024-12-19 17:53:29.122] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.144] :Sending Touch (ACTION_MOVE): 0:(540.0,1440.45)
+[Fastbot][2024-12-19 17:53:29.145] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.167] :Sending Touch (ACTION_MOVE): 0:(540.0,1525.1)
+[Fastbot][2024-12-19 17:53:29.169] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.191] :Sending Touch (ACTION_MOVE): 0:(540.0,1609.75)
+[Fastbot][2024-12-19 17:53:29.192] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.214] :Sending Touch (ACTION_MOVE): 0:(540.0,1694.4)
+[Fastbot][2024-12-19 17:53:29.217] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.238] :Sending Touch (ACTION_MOVE): 0:(540.0,1779.05)
+[Fastbot][2024-12-19 17:53:29.239] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.261] :Sending Touch (ACTION_MOVE): 0:(540.0,1863.7)
+[Fastbot][2024-12-19 17:53:29.265] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.287] :Sending Touch (ACTION_MOVE): 0:(540.0,1948.35)
+[Fastbot][2024-12-19 17:53:29.289] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.311] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:29.316] Sleeping for 136 milliseconds
+[Fastbot][2024-12-19 17:53:29.467] // Event id: 636
+[Fastbot][2024-12-19 17:53:29.475] action type: CLICK
+[Fastbot][2024-12-19 17:53:29.476] rpc cost time: 6
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:29.483]  event time:29
+[Fastbot][2024-12-19 17:53:29.485] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:29.512] :Sending Touch (ACTION_DOWN): 0:(463.0,336.0)
+[Fastbot][2024-12-19 17:53:29.518] :Sending Touch (ACTION_UP): 0:(463.0,336.0)
+[Fastbot][2024-12-19 17:53:29.521] Sleeping for 132 milliseconds
+[Fastbot][2024-12-19 17:53:29.669] // Event id: 640
+[Fastbot][2024-12-19 17:53:29.677] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:29.684] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:29.694]  event time:38
+[Fastbot][2024-12-19 17:53:29.695] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:29.723] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:29.727] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:29.731] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.755] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:53:29.757] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.780] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:53:29.784] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.808] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:53:29.812] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.835] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:53:29.839] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.865] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:53:29.870] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.894] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:53:29.900] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.922] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:53:29.929] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.958] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:53:29.966] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:29.991] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:53:29.999] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.022] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:30.030] Sleeping for 161 milliseconds
+[Fastbot][2024-12-19 17:53:30.216] // Event id: 664
+[Fastbot][2024-12-19 17:53:30.227] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:30.232] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:30.239]  event time:37
+[Fastbot][2024-12-19 17:53:30.241] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:30.280] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:30.283] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:30.287] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.310] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:30.315] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.338] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:30.341] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.366] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:30.368]     //[calendar_time:2024-12-19 17:53:30.368  system_uptime:13344646]
+[Fastbot][2024-12-19 17:53:30.369]     // Sending event #600
+[Fastbot][2024-12-19 17:53:30.371] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.393] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:30.399] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.421] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:30.425] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.449] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:30.453] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.476] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:30.480] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.504] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:30.508] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.532] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:30.535] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:30.558] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:30.565] Sleeping for 165 milliseconds
+[Fastbot][2024-12-19 17:53:30.746] // Event id: 688
+[Fastbot][2024-12-19 17:53:30.753] action type: CLICK
+[Fastbot][2024-12-19 17:53:30.754] rpc cost time: 5
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:30.759]  event time:26
+[Fastbot][2024-12-19 17:53:30.760] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:30.785] :Sending Touch (ACTION_DOWN): 0:(947.0,131.0)
+[Fastbot][2024-12-19 17:53:30.788] :Sending Touch (ACTION_UP): 0:(947.0,131.0)
+[Fastbot][2024-12-19 17:53:30.791] Sleeping for 165 milliseconds
+[Fastbot][2024-12-19 17:53:30.970] // Event id: 692
+[Fastbot][2024-12-19 17:53:30.984] action type: CLICK
+[Fastbot][2024-12-19 17:53:30.986] rpc cost time: 12
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:30.993]  event time:33
+[Fastbot][2024-12-19 17:53:30.994] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:31.010] :Sending Touch (ACTION_DOWN): 0:(133.0,359.0)
+[Fastbot][2024-12-19 17:53:31.017] :Sending Touch (ACTION_UP): 0:(133.0,359.0)
+[Fastbot][2024-12-19 17:53:31.021] Sleeping for 182 milliseconds
+[Fastbot][2024-12-19 17:53:31.235] // Event id: 696
+[Fastbot][2024-12-19 17:53:31.258] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:31.259] rpc cost time: 12
+[Fastbot][2024-12-19 17:53:31.270]  event time:61
+[Fastbot][2024-12-19 17:53:31.271] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:31.303] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:31.311] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:31.316] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.344] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:53:31.348] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.372] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:53:31.379] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.404] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:53:31.410] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.435] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:53:31.439] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.463] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:53:31.467] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.492] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:53:31.496] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.519] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:53:31.529] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.554] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:53:31.562] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.584] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:53:31.587] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:31.610] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:31.615] Sleeping for 197 milliseconds
+[Fastbot][2024-12-19 17:53:31.833] // Event id: 720
+[Fastbot][2024-12-19 17:53:31.845] action type: CLICK
+[Fastbot][2024-12-19 17:53:31.851] rpc cost time: 13
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:31.855]  event time:41
+[Fastbot][2024-12-19 17:53:31.856] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:31.869] :Sending Touch (ACTION_DOWN): 0:(150.0,128.0)
+[Fastbot][2024-12-19 17:53:31.873] :Sending Touch (ACTION_UP): 0:(150.0,128.0)
+[Fastbot][2024-12-19 17:53:31.883] Sleeping for 153 milliseconds
+[Fastbot][2024-12-19 17:53:32.048] // Event id: 724
+[Fastbot][2024-12-19 17:53:32.050] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:32.050] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:32.053]  event time:12
+[Fastbot][2024-12-19 17:53:32.055] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:32.079] :Sending Touch (ACTION_DOWN): 0:(540.0,1053.0)
+[Fastbot][2024-12-19 17:53:32.080] :Sending Touch (ACTION_MOVE): 0:(540.0,1053.0)
+[Fastbot][2024-12-19 17:53:32.082] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.104] :Sending Touch (ACTION_MOVE): 0:(540.0,1151.0)
+[Fastbot][2024-12-19 17:53:32.106] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.128] :Sending Touch (ACTION_MOVE): 0:(540.0,1249.0)
+[Fastbot][2024-12-19 17:53:32.131] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.152] :Sending Touch (ACTION_MOVE): 0:(540.0,1347.0)
+[Fastbot][2024-12-19 17:53:32.158] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.180] :Sending Touch (ACTION_MOVE): 0:(540.0,1445.0)
+[Fastbot][2024-12-19 17:53:32.182] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.205] :Sending Touch (ACTION_MOVE): 0:(540.0,1543.0)
+[Fastbot][2024-12-19 17:53:32.208] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.230] :Sending Touch (ACTION_MOVE): 0:(540.0,1641.0)
+[Fastbot][2024-12-19 17:53:32.232] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.254] :Sending Touch (ACTION_MOVE): 0:(540.0,1739.0)
+[Fastbot][2024-12-19 17:53:32.258] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.280] :Sending Touch (ACTION_MOVE): 0:(540.0,1837.0)
+[Fastbot][2024-12-19 17:53:32.282] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.304] :Sending Touch (ACTION_MOVE): 0:(540.0,1935.0)
+[Fastbot][2024-12-19 17:53:32.309] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.331] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:32.334] Sleeping for 176 milliseconds
+[Fastbot][2024-12-19 17:53:32.518] // Event id: 748
+[Fastbot][2024-12-19 17:53:32.527] action type: CLICK
+[Fastbot][2024-12-19 17:53:32.530] rpc cost time: 7
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:32.538]  event time:25
+[Fastbot][2024-12-19 17:53:32.539] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:32.572] :Sending Touch (ACTION_DOWN): 0:(422.0,1251.0)
+[Fastbot][2024-12-19 17:53:32.577] :Sending Touch (ACTION_UP): 0:(422.0,1251.0)
+[Fastbot][2024-12-19 17:53:32.580] Sleeping for 151 milliseconds
+[Fastbot][2024-12-19 17:53:32.585]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:32.737] // Event id: 752
+[Fastbot][2024-12-19 17:53:32.740] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:32.740] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:32.742]  event time:9
+[Fastbot][2024-12-19 17:53:32.742] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:32.750] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.758] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.762] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.784] :Sending Touch (ACTION_MOVE): 0:(486.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.786] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.807] :Sending Touch (ACTION_MOVE): 0:(432.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.809] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.831] :Sending Touch (ACTION_MOVE): 0:(378.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.832] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.854] :Sending Touch (ACTION_MOVE): 0:(324.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.855] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.877] :Sending Touch (ACTION_MOVE): 0:(270.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.878] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.900] :Sending Touch (ACTION_MOVE): 0:(216.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.902] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.924] :Sending Touch (ACTION_MOVE): 0:(162.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.925] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.946] :Sending Touch (ACTION_MOVE): 0:(108.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.948] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.971] :Sending Touch (ACTION_MOVE): 0:(54.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.973] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:32.996] :Sending Touch (ACTION_UP): 0:(0.0,1080.0)
+[Fastbot][2024-12-19 17:53:32.998] Sleeping for 193 milliseconds
+[Fastbot][2024-12-19 17:53:33.004] // the top activity is com.didichuxing.doraemonkit.kit.core.UniversalActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:33.005]     // Allowing start of Intent { cmp=com.le123.ysdq/com.didichuxing.doraemonkit.kit.core.UniversalActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:33.295] // Event id: 776
+[Fastbot][2024-12-19 17:53:33.298] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:33.298] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:33.304]  event time:112
+[Fastbot][2024-12-19 17:53:33.304] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:33.313] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:33.315] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:33.316] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.338] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:33.340]     //[calendar_time:2024-12-19 17:53:33.340  system_uptime:13347618]
+[Fastbot][2024-12-19 17:53:33.340]     // Sending event #700
+[Fastbot][2024-12-19 17:53:33.341] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.362] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:33.364] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.386] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:33.387] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.409] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:33.411] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.432] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:33.437] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.458] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:33.460] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.482] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:33.486] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.508] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:33.510] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.532] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:33.537] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:33.558] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:33.561] Sleeping for 155 milliseconds
+[Fastbot][2024-12-19 17:53:33.750] // Event id: 800
+[Fastbot][2024-12-19 17:53:33.764] action type: CLICK
+[Fastbot][2024-12-19 17:53:33.766] rpc cost time: 15
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:33.776]  event time:56
+[Fastbot][2024-12-19 17:53:33.777] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:33.822] :Sending Touch (ACTION_DOWN): 0:(983.0,210.0)
+[Fastbot][2024-12-19 17:53:33.826] :Sending Touch (ACTION_UP): 0:(983.0,210.0)
+[Fastbot][2024-12-19 17:53:33.829] Sleeping for 132 milliseconds
+[Fastbot][2024-12-19 17:53:33.831]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:33.968] // Event id: 804
+[Fastbot][2024-12-19 17:53:33.970] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:33.971] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:33.974]  event time:10
+[Fastbot][2024-12-19 17:53:33.974] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:33.984] :Sending Touch (ACTION_DOWN): 0:(540.0,1186.5)
+[Fastbot][2024-12-19 17:53:33.989] :Sending Touch (ACTION_MOVE): 0:(540.0,1186.5)
+[Fastbot][2024-12-19 17:53:33.990] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.011] :Sending Touch (ACTION_MOVE): 0:(540.0,1075.05)
+[Fastbot][2024-12-19 17:53:34.013] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.034] :Sending Touch (ACTION_MOVE): 0:(540.0,963.6)
+[Fastbot][2024-12-19 17:53:34.036] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.057] :Sending Touch (ACTION_MOVE): 0:(540.0,852.15)
+[Fastbot][2024-12-19 17:53:34.059] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.080] :Sending Touch (ACTION_MOVE): 0:(540.0,740.69995)
+[Fastbot][2024-12-19 17:53:34.082] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.103] :Sending Touch (ACTION_MOVE): 0:(540.0,629.25)
+[Fastbot][2024-12-19 17:53:34.105] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.126] :Sending Touch (ACTION_MOVE): 0:(540.0,517.8)
+[Fastbot][2024-12-19 17:53:34.128] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.150] :Sending Touch (ACTION_MOVE): 0:(540.0,406.35004)
+[Fastbot][2024-12-19 17:53:34.151] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.173] :Sending Touch (ACTION_MOVE): 0:(540.0,294.89996)
+[Fastbot][2024-12-19 17:53:34.175] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.196] :Sending Touch (ACTION_MOVE): 0:(540.0,183.45001)
+[Fastbot][2024-12-19 17:53:34.201] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.222] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:34.224] Sleeping for 155 milliseconds
+[Fastbot][2024-12-19 17:53:34.395] // Event id: 828
+[Fastbot][2024-12-19 17:53:34.409] action type: BACK
+[Fastbot][2024-12-19 17:53:34.410] rpc cost time: 6
+[Fastbot][2024-12-19 17:53:34.546]  event time:163
+[Fastbot][2024-12-19 17:53:34.548] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:34.577] :Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+[Fastbot][2024-12-19 17:53:34.589] :Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+[Fastbot][2024-12-19 17:53:34.604] Sleeping for 156 milliseconds
+[Fastbot][2024-12-19 17:53:34.615]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:34.761] // current activity is com.elinkway.infinitemovies.ui.activity.AuthorDetailActivity
+[Fastbot][2024-12-19 17:53:34.851] // Event id: 832
+[Fastbot][2024-12-19 17:53:34.854] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:34.856] rpc cost time: 4
+[Fastbot][2024-12-19 17:53:34.860]  event time:94
+[Fastbot][2024-12-19 17:53:34.860] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:34.877] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:34.883] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:34.886] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.915] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:53:34.918] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.939] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:53:34.941] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.964] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:53:34.966] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:34.987] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:53:34.989] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.010] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:53:35.014] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.036] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:53:35.038] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.059] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:53:35.063] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.084] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:53:35.086] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.108] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:53:35.109] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.131] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:35.134] Sleeping for 162 milliseconds
+[Fastbot][2024-12-19 17:53:35.316] // Event id: 856
+[Fastbot][2024-12-19 17:53:35.362] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:35.363] rpc cost time: 13
+[Fastbot][2024-12-19 17:53:35.371]  event time:71
+[Fastbot][2024-12-19 17:53:35.372] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:35.392] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:35.397] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:35.403] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.425] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:53:35.430] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.452] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:53:35.455] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.478] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:53:35.481] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.503] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:53:35.508] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.532] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:53:35.536] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.559] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:53:35.563] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.585] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:53:35.589] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.614] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:53:35.623] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.653] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:53:35.657] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:35.682] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:35.687] Sleeping for 185 milliseconds
+[Fastbot][2024-12-19 17:53:35.888] // Event id: 880
+[Fastbot][2024-12-19 17:53:35.902] action type: CLICK
+[Fastbot][2024-12-19 17:53:35.903] rpc cost time: 8
+[Fastbot][2024-12-19 17:53:35.907] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:35.914]  event time:39
+[Fastbot][2024-12-19 17:53:35.915] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:35.941] :Sending Touch (ACTION_DOWN): 0:(5.0,180.0)
+[Fastbot][2024-12-19 17:53:35.945] :Sending Touch (ACTION_UP): 0:(5.0,180.0)
+[Fastbot][2024-12-19 17:53:35.948] Sleeping for 185 milliseconds
+[Fastbot][2024-12-19 17:53:36.153] // Event id: 884
+[Fastbot][2024-12-19 17:53:36.181] action type: CLICK
+[Fastbot][2024-12-19 17:53:36.182] rpc cost time: 13
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:36.191]  event time:53
+[Fastbot][2024-12-19 17:53:36.192] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:36.206] :Sending Touch (ACTION_DOWN): 0:(115.0,141.0)
+[Fastbot][2024-12-19 17:53:36.218] :Sending Touch (ACTION_UP): 0:(115.0,141.0)
+[Fastbot][2024-12-19 17:53:36.223] Sleeping for 143 milliseconds
+[Fastbot][2024-12-19 17:53:36.409] // Event id: 888
+[Fastbot][2024-12-19 17:53:36.427] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:36.428] rpc cost time: 12
+[Fastbot][2024-12-19 17:53:36.438]  event time:68
+[Fastbot][2024-12-19 17:53:36.440] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:36.452]     //[calendar_time:2024-12-19 17:53:36.452  system_uptime:13350730]
+[Fastbot][2024-12-19 17:53:36.454]     // Sending event #800
+[Fastbot][2024-12-19 17:53:36.457]     //[calendar_time:2024-12-19 17:53:36.457  system_uptime:13350735]
+[Fastbot][2024-12-19 17:53:36.459]     // Sending event #800
+[Fastbot][2024-12-19 17:53:36.461] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:36.463] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:36.466] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.488] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:36.493] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.516] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:36.520] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.546] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:36.549] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.572] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:36.577] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.601] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:36.603] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.626] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:36.631] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.654] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:36.660] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.691] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:36.695] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.718] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:36.725] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:36.749] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:36.761] Sleeping for 143 milliseconds
+[Fastbot][2024-12-19 17:53:36.927] // Event id: 912
+[Fastbot][2024-12-19 17:53:36.957] action type: CLICK
+[Fastbot][2024-12-19 17:53:36.958] rpc cost time: 13
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:36.961]  event time:53
+[Fastbot][2024-12-19 17:53:36.962] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:36.970] :Sending Touch (ACTION_DOWN): 0:(336.0,609.0)
+[Fastbot][2024-12-19 17:53:36.976] :Sending Touch (ACTION_UP): 0:(336.0,609.0)
+[Fastbot][2024-12-19 17:53:36.979] Sleeping for 143 milliseconds
+[Fastbot][2024-12-19 17:53:37.157] // Event id: 916
+[Fastbot][2024-12-19 17:53:37.198] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:37.199] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:37.211]  event time:86
+[Fastbot][2024-12-19 17:53:37.211] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:37.233] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:37.237] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:37.240] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.269] :Sending Touch (ACTION_MOVE): 0:(540.0,1089.9)
+[Fastbot][2024-12-19 17:53:37.274] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.301] :Sending Touch (ACTION_MOVE): 0:(540.0,976.8)
+[Fastbot][2024-12-19 17:53:37.303] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.326] :Sending Touch (ACTION_MOVE): 0:(540.0,863.69995)
+[Fastbot][2024-12-19 17:53:37.331] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.353] :Sending Touch (ACTION_MOVE): 0:(540.0,750.6)
+[Fastbot][2024-12-19 17:53:37.357] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.379] :Sending Touch (ACTION_MOVE): 0:(540.0,637.5)
+[Fastbot][2024-12-19 17:53:37.383] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.406] :Sending Touch (ACTION_MOVE): 0:(540.0,524.39996)
+[Fastbot][2024-12-19 17:53:37.409] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.433] :Sending Touch (ACTION_MOVE): 0:(540.0,411.3)
+[Fastbot][2024-12-19 17:53:37.438] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.462] :Sending Touch (ACTION_MOVE): 0:(540.0,298.2)
+[Fastbot][2024-12-19 17:53:37.465] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.489] :Sending Touch (ACTION_MOVE): 0:(540.0,185.10004)
+[Fastbot][2024-12-19 17:53:37.494] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.517] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:37.525] Sleeping for 115 milliseconds
+[Fastbot][2024-12-19 17:53:37.655] // Event id: 940
+[Fastbot][2024-12-19 17:53:37.703] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:37.704] rpc cost time: 28
+[Fastbot][2024-12-19 17:53:37.712]  event time:70
+[Fastbot][2024-12-19 17:53:37.713] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:37.739] :Sending Touch (ACTION_DOWN): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:37.743] :Sending Touch (ACTION_MOVE): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:37.745] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.768] :Sending Touch (ACTION_MOVE): 0:(540.0,1277.45)
+[Fastbot][2024-12-19 17:53:37.771] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.793] :Sending Touch (ACTION_MOVE): 0:(540.0,1361.4)
+[Fastbot][2024-12-19 17:53:37.796] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.820] :Sending Touch (ACTION_MOVE): 0:(540.0,1445.35)
+[Fastbot][2024-12-19 17:53:37.823] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.845] :Sending Touch (ACTION_MOVE): 0:(540.0,1529.3)
+[Fastbot][2024-12-19 17:53:37.849] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.871] :Sending Touch (ACTION_MOVE): 0:(540.0,1613.25)
+[Fastbot][2024-12-19 17:53:37.875] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.899] :Sending Touch (ACTION_MOVE): 0:(540.0,1697.2)
+[Fastbot][2024-12-19 17:53:37.908] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.932] :Sending Touch (ACTION_MOVE): 0:(540.0,1781.1499)
+[Fastbot][2024-12-19 17:53:37.939] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.962] :Sending Touch (ACTION_MOVE): 0:(540.0,1865.1001)
+[Fastbot][2024-12-19 17:53:37.967] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:37.996] :Sending Touch (ACTION_MOVE): 0:(540.0,1949.05)
+[Fastbot][2024-12-19 17:53:38.001] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.024] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:38.037] Sleeping for 118 milliseconds
+[Fastbot][2024-12-19 17:53:38.173] // Event id: 964
+[Fastbot][2024-12-19 17:53:38.201] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:38.204] rpc cost time: 12
+[Fastbot][2024-12-19 17:53:38.210]  event time:51
+[Fastbot][2024-12-19 17:53:38.210] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:38.220] :Sending Touch (ACTION_DOWN): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:38.224] :Sending Touch (ACTION_MOVE): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:38.228] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.253] :Sending Touch (ACTION_MOVE): 0:(540.0,1277.45)
+[Fastbot][2024-12-19 17:53:38.255] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.277] :Sending Touch (ACTION_MOVE): 0:(540.0,1361.4)
+[Fastbot][2024-12-19 17:53:38.279] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.302] :Sending Touch (ACTION_MOVE): 0:(540.0,1445.35)
+[Fastbot][2024-12-19 17:53:38.305] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.328] :Sending Touch (ACTION_MOVE): 0:(540.0,1529.3)
+[Fastbot][2024-12-19 17:53:38.332] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.356] :Sending Touch (ACTION_MOVE): 0:(540.0,1613.25)
+[Fastbot][2024-12-19 17:53:38.364] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.392] :Sending Touch (ACTION_MOVE): 0:(540.0,1697.2)
+[Fastbot][2024-12-19 17:53:38.397] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.421] :Sending Touch (ACTION_MOVE): 0:(540.0,1781.1499)
+[Fastbot][2024-12-19 17:53:38.426] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.455] :Sending Touch (ACTION_MOVE): 0:(540.0,1865.1001)
+[Fastbot][2024-12-19 17:53:38.461] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.485] :Sending Touch (ACTION_MOVE): 0:(540.0,1949.05)
+[Fastbot][2024-12-19 17:53:38.489] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.512] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:38.520] Sleeping for 110 milliseconds
+[Fastbot][2024-12-19 17:53:38.651] // Event id: 988
+[Fastbot][2024-12-19 17:53:38.683] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:38.684] rpc cost time: 9
+[Fastbot][2024-12-19 17:53:38.689]  event time:56
+[Fastbot][2024-12-19 17:53:38.690] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:38.698] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:38.708] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:38.711] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.734] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:38.737] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.759]     //[calendar_time:2024-12-19 17:53:38.758  system_uptime:13353037]
+[Fastbot][2024-12-19 17:53:38.759]     // Sending event #900
+[Fastbot][2024-12-19 17:53:38.762]     //[calendar_time:2024-12-19 17:53:38.762  system_uptime:13353040]
+[Fastbot][2024-12-19 17:53:38.763]     // Sending event #900
+[Fastbot][2024-12-19 17:53:38.764] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:38.771] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.794] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:38.802] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.826] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:38.831] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.855] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:38.858] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.882] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:38.888] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.912] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:38.915] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.947] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:38.954] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:38.977] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:38.986] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.011] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:39.019] Sleeping for 125 milliseconds
+[Fastbot][2024-12-19 17:53:39.178] // Event id: 1012
+[Fastbot][2024-12-19 17:53:39.206] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:39.207] rpc cost time: 8
+[Fastbot][2024-12-19 17:53:39.214]  event time:65
+[Fastbot][2024-12-19 17:53:39.215] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:39.236] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:39.238] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:39.240] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.266] :Sending Touch (ACTION_MOVE): 0:(593.9,1203.0)
+[Fastbot][2024-12-19 17:53:39.268] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.290] :Sending Touch (ACTION_MOVE): 0:(647.8,1203.0)
+[Fastbot][2024-12-19 17:53:39.292] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.314] :Sending Touch (ACTION_MOVE): 0:(701.7,1203.0)
+[Fastbot][2024-12-19 17:53:39.319] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.342] :Sending Touch (ACTION_MOVE): 0:(755.6,1203.0)
+[Fastbot][2024-12-19 17:53:39.349] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.373] :Sending Touch (ACTION_MOVE): 0:(809.5,1203.0)
+[Fastbot][2024-12-19 17:53:39.377] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.407] :Sending Touch (ACTION_MOVE): 0:(863.4,1203.0)
+[Fastbot][2024-12-19 17:53:39.411] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.436] :Sending Touch (ACTION_MOVE): 0:(917.3,1203.0)
+[Fastbot][2024-12-19 17:53:39.442] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.473] :Sending Touch (ACTION_MOVE): 0:(971.2,1203.0)
+[Fastbot][2024-12-19 17:53:39.480] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.504] :Sending Touch (ACTION_MOVE): 0:(1025.1,1203.0)
+[Fastbot][2024-12-19 17:53:39.509] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.533] :Sending Touch (ACTION_UP): 0:(1079.0,1203.0)
+[Fastbot][2024-12-19 17:53:39.546] Sleeping for 145 milliseconds
+[Fastbot][2024-12-19 17:53:39.724] // Event id: 1036
+[Fastbot][2024-12-19 17:53:39.744] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:53:39.747] rpc cost time: 13
+[Fastbot][2024-12-19 17:53:39.753]  event time:54
+[Fastbot][2024-12-19 17:53:39.754] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:39.766] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:39.769] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:39.776] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.799] :Sending Touch (ACTION_MOVE): 0:(540.0,1286.0)
+[Fastbot][2024-12-19 17:53:39.803] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.828] :Sending Touch (ACTION_MOVE): 0:(540.0,1369.0)
+[Fastbot][2024-12-19 17:53:39.832] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.854] :Sending Touch (ACTION_MOVE): 0:(540.0,1452.0)
+[Fastbot][2024-12-19 17:53:39.858] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.882] :Sending Touch (ACTION_MOVE): 0:(540.0,1535.0)
+[Fastbot][2024-12-19 17:53:39.887] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.911] :Sending Touch (ACTION_MOVE): 0:(540.0,1618.0)
+[Fastbot][2024-12-19 17:53:39.920] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.947] :Sending Touch (ACTION_MOVE): 0:(540.0,1701.0)
+[Fastbot][2024-12-19 17:53:39.952] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:39.977] :Sending Touch (ACTION_MOVE): 0:(540.0,1784.0)
+[Fastbot][2024-12-19 17:53:39.985] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.008] :Sending Touch (ACTION_MOVE): 0:(540.0,1867.0)
+[Fastbot][2024-12-19 17:53:40.014] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.039] :Sending Touch (ACTION_MOVE): 0:(540.0,1950.0)
+[Fastbot][2024-12-19 17:53:40.044] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.068] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:53:40.073] Sleeping for 145 milliseconds
+[Fastbot][2024-12-19 17:53:40.251] // Event id: 1060
+[Fastbot][2024-12-19 17:53:40.293] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:40.294] rpc cost time: 13
+[Fastbot][2024-12-19 17:53:40.305]  event time:83
+[Fastbot][2024-12-19 17:53:40.307] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:40.342] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:40.349] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:40.352] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.375] :Sending Touch (ACTION_MOVE): 0:(540.0,1089.9)
+[Fastbot][2024-12-19 17:53:40.379] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.401] :Sending Touch (ACTION_MOVE): 0:(540.0,976.8)
+[Fastbot][2024-12-19 17:53:40.405] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.428] :Sending Touch (ACTION_MOVE): 0:(540.0,863.69995)
+[Fastbot][2024-12-19 17:53:40.434] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.456] :Sending Touch (ACTION_MOVE): 0:(540.0,750.6)
+[Fastbot][2024-12-19 17:53:40.459] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.482] :Sending Touch (ACTION_MOVE): 0:(540.0,637.5)
+[Fastbot][2024-12-19 17:53:40.487] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.514] :Sending Touch (ACTION_MOVE): 0:(540.0,524.39996)
+[Fastbot][2024-12-19 17:53:40.519] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.542] :Sending Touch (ACTION_MOVE): 0:(540.0,411.3)
+[Fastbot][2024-12-19 17:53:40.548] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.573] :Sending Touch (ACTION_MOVE): 0:(540.0,298.2)
+[Fastbot][2024-12-19 17:53:40.581] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.604] :Sending Touch (ACTION_MOVE): 0:(540.0,185.10004)
+[Fastbot][2024-12-19 17:53:40.608] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.630] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:40.635] Sleeping for 191 milliseconds
+[Fastbot][2024-12-19 17:53:40.841] // Event id: 1084
+[Fastbot][2024-12-19 17:53:40.867] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:40.868] rpc cost time: 9
+[Fastbot][2024-12-19 17:53:40.873]  event time:45
+[Fastbot][2024-12-19 17:53:40.874] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:40.892] :Sending Touch (ACTION_DOWN): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:40.898] :Sending Touch (ACTION_MOVE): 0:(540.0,1193.5)
+[Fastbot][2024-12-19 17:53:40.903] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.927] :Sending Touch (ACTION_MOVE): 0:(540.0,1081.35)
+[Fastbot][2024-12-19 17:53:40.932] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.956] :Sending Touch (ACTION_MOVE): 0:(540.0,969.2)
+[Fastbot][2024-12-19 17:53:40.960] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:40.983] :Sending Touch (ACTION_MOVE): 0:(540.0,857.05)
+[Fastbot][2024-12-19 17:53:40.986] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.009] :Sending Touch (ACTION_MOVE): 0:(540.0,744.9)
+[Fastbot][2024-12-19 17:53:41.013] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.038] :Sending Touch (ACTION_MOVE): 0:(540.0,632.75)
+[Fastbot][2024-12-19 17:53:41.044] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.076]     //[calendar_time:2024-12-19 17:53:41.076  system_uptime:13355354]
+[Fastbot][2024-12-19 17:53:41.080]     // Sending event #1000
+[Fastbot][2024-12-19 17:53:41.089]     //[calendar_time:2024-12-19 17:53:41.089  system_uptime:13355367]
+[Fastbot][2024-12-19 17:53:41.090]     // Sending event #1000
+[Fastbot][2024-12-19 17:53:41.096] :Sending Touch (ACTION_MOVE): 0:(540.0,520.6)
+[Fastbot][2024-12-19 17:53:41.100] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.123] :Sending Touch (ACTION_MOVE): 0:(540.0,408.45)
+[Fastbot][2024-12-19 17:53:41.131] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.154] :Sending Touch (ACTION_MOVE): 0:(540.0,296.3)
+[Fastbot][2024-12-19 17:53:41.159] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.183] :Sending Touch (ACTION_MOVE): 0:(540.0,184.15002)
+[Fastbot][2024-12-19 17:53:41.186] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.211] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:41.223] Sleeping for 191 milliseconds
+[Fastbot][2024-12-19 17:53:41.451] // Event id: 1108
+[Fastbot][2024-12-19 17:53:41.484] action type: CLICK
+[Fastbot][2024-12-19 17:53:41.486] rpc cost time: 9
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:41.494]  event time:77
+[Fastbot][2024-12-19 17:53:41.495] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:41.525] :Sending Touch (ACTION_DOWN): 0:(51.0,146.0)
+[Fastbot][2024-12-19 17:53:41.528] :Sending Touch (ACTION_UP): 0:(51.0,146.0)
+[Fastbot][2024-12-19 17:53:41.531] Sleeping for 119 milliseconds
+[Fastbot][2024-12-19 17:53:41.692] // Event id: 1112
+[Fastbot][2024-12-19 17:53:41.709] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:41.710] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:41.718]  event time:63
+[Fastbot][2024-12-19 17:53:41.718] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:41.739] :Sending Touch (ACTION_DOWN): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.742] :Sending Touch (ACTION_MOVE): 0:(540.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.746] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.769] :Sending Touch (ACTION_MOVE): 0:(486.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.773] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.796] :Sending Touch (ACTION_MOVE): 0:(432.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.799] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.822] :Sending Touch (ACTION_MOVE): 0:(378.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.828] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.854] :Sending Touch (ACTION_MOVE): 0:(324.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.863] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.887] :Sending Touch (ACTION_MOVE): 0:(270.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.894] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.918] :Sending Touch (ACTION_MOVE): 0:(216.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.923] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.946] :Sending Touch (ACTION_MOVE): 0:(162.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.949] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:41.977] :Sending Touch (ACTION_MOVE): 0:(108.0,1203.0)
+[Fastbot][2024-12-19 17:53:41.981] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.007] :Sending Touch (ACTION_MOVE): 0:(54.0,1203.0)
+[Fastbot][2024-12-19 17:53:42.013] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.035] :Sending Touch (ACTION_UP): 0:(0.0,1203.0)
+[Fastbot][2024-12-19 17:53:42.044] Sleeping for 110 milliseconds
+[Fastbot][2024-12-19 17:53:42.178] // Event id: 1136
+[Fastbot][2024-12-19 17:53:42.192] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:42.192] rpc cost time: 10
+[Fastbot][2024-12-19 17:53:42.197]  event time:40
+[Fastbot][2024-12-19 17:53:42.198] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:42.230] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:42.234] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:42.239] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.262] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:42.266] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.289] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:42.293] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.315] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:42.318] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.341] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:42.344] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.367] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:42.369] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.393] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:42.399] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.423] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:42.427] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.451] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:42.459] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.491] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:42.498] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:42.528] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:42.544] Sleeping for 165 milliseconds
+[Fastbot][2024-12-19 17:53:42.571] // the top activity is com.elinkway.infinitemovies.ui.activity.SplashActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:42.572]     // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SplashActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:42.712] // current activity is com.elinkway.infinitemovies.ui.activity.SplashActivity
+[Fastbot][2024-12-19 17:53:48.016] // the top activity is com.elinkway.infinitemovies.ui.activity.NewMainActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:48.016]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.NewMainActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:48.038]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:48.055] // Event id: 1160
+[Fastbot][2024-12-19 17:53:48.057] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:48.058] rpc cost time: 1
+[Fastbot][2024-12-19 17:53:48.063]  event time:5350
+[Fastbot][2024-12-19 17:53:48.063] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:48.075] // current activity is com.elinkway.infinitemovies.ui.activity.NewMainActivity
+[Fastbot][2024-12-19 17:53:48.079] :Sending Touch (ACTION_DOWN): 0:(540.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.178] :Sending Touch (ACTION_MOVE): 0:(540.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.182] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.203] :Sending Touch (ACTION_MOVE): 0:(486.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.205] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.227] :Sending Touch (ACTION_MOVE): 0:(432.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.229] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.256] :Sending Touch (ACTION_MOVE): 0:(378.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.260] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.281] :Sending Touch (ACTION_MOVE): 0:(324.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.287] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.308] :Sending Touch (ACTION_MOVE): 0:(270.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.310] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.333] :Sending Touch (ACTION_MOVE): 0:(216.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.337] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.358] :Sending Touch (ACTION_MOVE): 0:(162.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.366] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.389] :Sending Touch (ACTION_MOVE): 0:(108.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.391] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.413] :Sending Touch (ACTION_MOVE): 0:(54.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.415] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:48.440] :Sending Touch (ACTION_UP): 0:(0.0,1017.0)
+[Fastbot][2024-12-19 17:53:48.444] Sleeping for 129 milliseconds
+[Fastbot][2024-12-19 17:53:50.234] // Event id: 1184
+[Fastbot][2024-12-19 17:53:50.240] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:50.241] rpc cost time: 6
+[Fastbot][2024-12-19 17:53:50.250]  event time:1676
+[Fastbot][2024-12-19 17:53:50.251] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:50.284] :Sending Touch (ACTION_DOWN): 0:(540.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.290] :Sending Touch (ACTION_MOVE): 0:(540.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.293] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.319] :Sending Touch (ACTION_MOVE): 0:(486.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.323] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.346] :Sending Touch (ACTION_MOVE): 0:(432.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.349] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.371] :Sending Touch (ACTION_MOVE): 0:(378.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.374] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.396] :Sending Touch (ACTION_MOVE): 0:(324.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.399] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.420] :Sending Touch (ACTION_MOVE): 0:(270.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.423] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.444] :Sending Touch (ACTION_MOVE): 0:(216.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.446] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.468] :Sending Touch (ACTION_MOVE): 0:(162.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.475] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.497] :Sending Touch (ACTION_MOVE): 0:(108.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.499]     //[calendar_time:2024-12-19 17:53:50.499  system_uptime:13364777]
+[Fastbot][2024-12-19 17:53:50.499]     // Sending event #1100
+[Fastbot][2024-12-19 17:53:50.500] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.522] :Sending Touch (ACTION_MOVE): 0:(54.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.524] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:50.549] :Sending Touch (ACTION_UP): 0:(0.0,1017.0)
+[Fastbot][2024-12-19 17:53:50.558] Sleeping for 157 milliseconds
+[Fastbot][2024-12-19 17:53:51.566] // Event id: 1208
+[Fastbot][2024-12-19 17:53:51.589] action type: CLICK
+[Fastbot][2024-12-19 17:53:51.590] rpc cost time: 10
+[Fastbot][2024-12-19 17:53:51.593] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:51.597]  event time:880
+[Fastbot][2024-12-19 17:53:51.598] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:51.627] :Sending Touch (ACTION_DOWN): 0:(873.0,109.0)
+[Fastbot][2024-12-19 17:53:51.630] :Sending Touch (ACTION_UP): 0:(873.0,109.0)
+[Fastbot][2024-12-19 17:53:51.634] Sleeping for 138 milliseconds
+[Fastbot][2024-12-19 17:53:51.845] // the top activity is com.elinkway.infinitemovies.channel.activity.ExtraTabActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:51.846]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.channel.activity.ExtraTabActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:52.205] // Event id: 1212
+[Fastbot][2024-12-19 17:53:52.209] action type: CLICK
+[Fastbot][2024-12-19 17:53:52.210] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:52.213]  event time:435
+[Fastbot][2024-12-19 17:53:52.213] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:52.231] // current activity is com.elinkway.infinitemovies.channel.activity.ExtraTabActivity
+[Fastbot][2024-12-19 17:53:52.241] :Sending Touch (ACTION_DOWN): 0:(261.0,174.0)
+[Fastbot][2024-12-19 17:53:52.243] :Sending Touch (ACTION_UP): 0:(261.0,174.0)
+[Fastbot][2024-12-19 17:53:52.246] Sleeping for 192 milliseconds
+[Fastbot][2024-12-19 17:53:52.519] // the top activity is com.elinkway.infinitemovies.ui.activity.SearchActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:52.522]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.SearchActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:52.591] // Event id: 1216
+[Fastbot][2024-12-19 17:53:52.595] action type: CLICK
+[Fastbot][2024-12-19 17:53:52.595] rpc cost time: 2
+[Fastbot][2024-12-19 17:53:52.600] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:52.605]  event time:161
+[Fastbot][2024-12-19 17:53:52.606] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:52.634] :Sending Touch (ACTION_DOWN): 0:(1034.0,1912.0)
+[Fastbot][2024-12-19 17:53:52.872] // current activity is com.elinkway.infinitemovies.ui.activity.SearchActivity
+[Fastbot][2024-12-19 17:53:52.874] :Sending Touch (ACTION_UP): 0:(1034.0,1912.0)
+[Fastbot][2024-12-19 17:53:52.877] Sleeping for 181 milliseconds
+[Fastbot][2024-12-19 17:53:53.947] // Event id: 1220
+[Fastbot][2024-12-19 17:53:53.958] action type: CLICK
+[Fastbot][2024-12-19 17:53:53.959] rpc cost time: 3
+[Fastbot][2024-12-19 17:53:53.962] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:53:53.969]  event time:910
+[Fastbot][2024-12-19 17:53:53.970] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:53.997] :Sending Touch (ACTION_DOWN): 0:(1024.0,265.0)
+[Fastbot][2024-12-19 17:53:54.001] :Sending Touch (ACTION_UP): 0:(1024.0,265.0)
+[Fastbot][2024-12-19 17:53:54.007] Sleeping for 117 milliseconds
+[Fastbot][2024-12-19 17:53:55.253] // Event id: 1224
+[Fastbot][2024-12-19 17:53:55.866] action type: SCROLL_RIGHT_LEFT
+[Fastbot][2024-12-19 17:53:55.867] rpc cost time: 11
+[Fastbot][2024-12-19 17:53:55.871]  event time:1745
+[Fastbot][2024-12-19 17:53:55.872] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:55.903] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:55.907] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:55.910] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:55.932] :Sending Touch (ACTION_MOVE): 0:(486.0,1080.0)
+[Fastbot][2024-12-19 17:53:55.934] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:55.956] :Sending Touch (ACTION_MOVE): 0:(432.0,1080.0)
+[Fastbot][2024-12-19 17:53:55.959] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:55.982] :Sending Touch (ACTION_MOVE): 0:(378.0,1080.0)
+[Fastbot][2024-12-19 17:53:55.985] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.007] :Sending Touch (ACTION_MOVE): 0:(324.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.009] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.031] :Sending Touch (ACTION_MOVE): 0:(270.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.035] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.057] :Sending Touch (ACTION_MOVE): 0:(216.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.060] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.084] :Sending Touch (ACTION_MOVE): 0:(162.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.090] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.112] :Sending Touch (ACTION_MOVE): 0:(108.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.115] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.139] :Sending Touch (ACTION_MOVE): 0:(54.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.144] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:56.169] :Sending Touch (ACTION_UP): 0:(0.0,1080.0)
+[Fastbot][2024-12-19 17:53:56.175] Sleeping for 188 milliseconds
+[Fastbot][2024-12-19 17:53:56.431] // Event id: 1248
+[Fastbot][2024-12-19 17:53:56.473] action type: CLICK
+[Fastbot][2024-12-19 17:53:56.476] rpc cost time: 12
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:56.484]  event time:117
+[Fastbot][2024-12-19 17:53:56.485] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:56.512] :Sending Touch (ACTION_DOWN): 0:(988.0,244.0)
+[Fastbot][2024-12-19 17:53:56.517] :Sending Touch (ACTION_UP): 0:(988.0,244.0)
+[Fastbot][2024-12-19 17:53:56.520] Sleeping for 120 milliseconds
+[Fastbot][2024-12-19 17:53:56.676] // Event id: 1252
+[Fastbot][2024-12-19 17:53:56.877] action type: CLICK
+[Fastbot][2024-12-19 17:53:56.878] rpc cost time: 24
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:56.883]  event time:239
+[Fastbot][2024-12-19 17:53:56.884] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:56.910] :Sending Touch (ACTION_DOWN): 0:(892.0,137.0)
+[Fastbot][2024-12-19 17:53:56.914] :Sending Touch (ACTION_UP): 0:(892.0,137.0)
+[Fastbot][2024-12-19 17:53:56.917] Sleeping for 120 milliseconds
+[Fastbot][2024-12-19 17:53:57.051] // Event id: 1256
+[Fastbot][2024-12-19 17:53:57.060] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:53:57.062] rpc cost time: 9
+[Fastbot][2024-12-19 17:53:57.070]  event time:30
+[Fastbot][2024-12-19 17:53:57.072] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:57.090] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:57.098] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:57.100] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.122] :Sending Touch (ACTION_MOVE): 0:(593.9,1080.0)
+[Fastbot][2024-12-19 17:53:57.124] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.147] :Sending Touch (ACTION_MOVE): 0:(647.8,1080.0)
+[Fastbot][2024-12-19 17:53:57.152] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.175] :Sending Touch (ACTION_MOVE): 0:(701.7,1080.0)
+[Fastbot][2024-12-19 17:53:57.178] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.201] :Sending Touch (ACTION_MOVE): 0:(755.6,1080.0)
+[Fastbot][2024-12-19 17:53:57.205] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.229] :Sending Touch (ACTION_MOVE): 0:(809.5,1080.0)
+[Fastbot][2024-12-19 17:53:57.234] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.257] :Sending Touch (ACTION_MOVE): 0:(863.4,1080.0)
+[Fastbot][2024-12-19 17:53:57.261] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.284] :Sending Touch (ACTION_MOVE): 0:(917.3,1080.0)
+[Fastbot][2024-12-19 17:53:57.287] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.312] :Sending Touch (ACTION_MOVE): 0:(971.2,1080.0)
+[Fastbot][2024-12-19 17:53:57.317] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.340] :Sending Touch (ACTION_MOVE): 0:(1025.1,1080.0)
+[Fastbot][2024-12-19 17:53:57.342] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:57.363] :Sending Touch (ACTION_UP): 0:(1079.0,1080.0)
+[Fastbot][2024-12-19 17:53:57.367] Sleeping for 157 milliseconds
+[Fastbot][2024-12-19 17:53:57.555] // Event id: 1280
+[Fastbot][2024-12-19 17:53:57.621] action type: CLICK
+[Fastbot][2024-12-19 17:53:57.622] rpc cost time: 6
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:57.629]  event time:102
+[Fastbot][2024-12-19 17:53:57.630] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:57.646] :Sending Touch (ACTION_DOWN): 0:(669.0,805.0)
+[Fastbot][2024-12-19 17:53:57.649] :Sending Touch (ACTION_UP): 0:(669.0,805.0)
+[Fastbot][2024-12-19 17:53:57.652] Sleeping for 142 milliseconds
+[Fastbot][2024-12-19 17:53:57.832] // Event id: 1284
+[Fastbot][2024-12-19 17:53:57.926] action type: CLICK
+[Fastbot][2024-12-19 17:53:57.927] rpc cost time: 13
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:57.931]  event time:132
+[Fastbot][2024-12-19 17:53:57.932] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:57.952] :Sending Touch (ACTION_DOWN): 0:(289.0,1062.0)
+[Fastbot][2024-12-19 17:53:57.957] :Sending Touch (ACTION_UP): 0:(289.0,1062.0)
+[Fastbot][2024-12-19 17:53:57.960] Sleeping for 193 milliseconds
+[Fastbot][2024-12-19 17:53:57.985] // the top activity is com.elinkway.infinitemovies.play.core.VideoDetailActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:57.986]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.play.core.VideoDetailActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:58.082]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:58.178] // Event id: 1288
+[Fastbot][2024-12-19 17:53:58.226] action type: CLICK
+[Fastbot][2024-12-19 17:53:58.226] rpc cost time: 2
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:58.228]  event time:72
+[Fastbot][2024-12-19 17:53:58.229] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:58.237] :Sending Touch (ACTION_DOWN): 0:(111.0,1916.0)
+[Fastbot][2024-12-19 17:53:58.238] :Sending Touch (ACTION_UP): 0:(111.0,1916.0)
+[Fastbot][2024-12-19 17:53:58.243] Sleeping for 142 milliseconds
+[Fastbot][2024-12-19 17:53:58.423] // Event id: 1292
+[Fastbot][2024-12-19 17:53:58.587] action type: CLICK
+[Fastbot][2024-12-19 17:53:58.588] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:58.590]  event time:201
+[Fastbot][2024-12-19 17:53:58.590] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:58.598] :Sending Touch (ACTION_DOWN): 0:(290.0,785.0)
+[Fastbot][2024-12-19 17:53:58.604] :Sending Touch (ACTION_UP): 0:(290.0,785.0)
+[Fastbot][2024-12-19 17:53:58.611] Sleeping for 135 milliseconds
+[Fastbot][2024-12-19 17:53:58.616] // the top activity is com.elinkway.infinitemovies.play.core.VideoDetailActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:53:58.617]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.play.core.VideoDetailActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:53:58.688]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:53:58.775] // Event id: 1296
+[Fastbot][2024-12-19 17:53:58.797] action type: CLICK
+[Fastbot][2024-12-19 17:53:58.797] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:58.799]  event time:50
+[Fastbot][2024-12-19 17:53:58.800] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:58.807] :Sending Touch (ACTION_DOWN): 0:(819.0,142.0)
+[Fastbot][2024-12-19 17:53:58.815] :Sending Touch (ACTION_UP): 0:(819.0,142.0)
+[Fastbot][2024-12-19 17:53:58.819] Sleeping for 175 milliseconds
+[Fastbot][2024-12-19 17:53:59.009] // Event id: 1300
+[Fastbot][2024-12-19 17:53:59.065] action type: CLICK
+[Fastbot][2024-12-19 17:53:59.065] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:59.067]  event time:71
+[Fastbot][2024-12-19 17:53:59.068] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:59.074] :Sending Touch (ACTION_DOWN): 0:(978.0,751.0)
+[Fastbot][2024-12-19 17:53:59.079] :Sending Touch (ACTION_UP): 0:(978.0,751.0)
+[Fastbot][2024-12-19 17:53:59.082] Sleeping for 137 milliseconds
+[Fastbot][2024-12-19 17:53:59.234] // Event id: 1304
+[Fastbot][2024-12-19 17:53:59.238] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:53:59.238] rpc cost time: 3
+[Fastbot][2024-12-19 17:53:59.240]  event time:18
+[Fastbot][2024-12-19 17:53:59.241] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:59.248] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:59.253] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:53:59.254] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.277] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:53:59.278] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.300] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:53:59.302] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.324] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:53:59.325] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.346] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:53:59.348] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.370] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:53:59.371] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.392]     //[calendar_time:2024-12-19 17:53:59.392  system_uptime:13373670]
+[Fastbot][2024-12-19 17:53:59.392]     // Sending event #1200
+[Fastbot][2024-12-19 17:53:59.393]     //[calendar_time:2024-12-19 17:53:59.393  system_uptime:13373671]
+[Fastbot][2024-12-19 17:53:59.393]     // Sending event #1200
+[Fastbot][2024-12-19 17:53:59.394] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:53:59.396] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.418] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:53:59.419] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.441] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:53:59.442] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.465] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:53:59.466] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:53:59.488] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:53:59.490] Sleeping for 137 milliseconds
+[Fastbot][2024-12-19 17:53:59.643] // Event id: 1328
+[Fastbot][2024-12-19 17:53:59.695] action type: CLICK
+[Fastbot][2024-12-19 17:53:59.695] rpc cost time: 2
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:59.701]  event time:73
+[Fastbot][2024-12-19 17:53:59.701] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:59.709] :Sending Touch (ACTION_DOWN): 0:(294.0,169.0)
+[Fastbot][2024-12-19 17:53:59.714] :Sending Touch (ACTION_UP): 0:(294.0,169.0)
+[Fastbot][2024-12-19 17:53:59.717] Sleeping for 137 milliseconds
+[Fastbot][2024-12-19 17:53:59.867] // Event id: 1332
+[Fastbot][2024-12-19 17:53:59.921] action type: CLICK
+[Fastbot][2024-12-19 17:53:59.922] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:53:59.924]  event time:68
+[Fastbot][2024-12-19 17:53:59.925] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:53:59.932] :Sending Touch (ACTION_DOWN): 0:(897.0,140.0)
+[Fastbot][2024-12-19 17:53:59.938] :Sending Touch (ACTION_UP): 0:(897.0,140.0)
+[Fastbot][2024-12-19 17:53:59.940] Sleeping for 137 milliseconds
+[Fastbot][2024-12-19 17:54:00.090] // Event id: 1336
+[Fastbot][2024-12-19 17:54:00.093] action type: SCROLL_BOTTOM_UP
+[Fastbot][2024-12-19 17:54:00.094] rpc cost time: 3
+[Fastbot][2024-12-19 17:54:00.096]  event time:17
+[Fastbot][2024-12-19 17:54:00.097] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:00.104] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:54:00.108] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:54:00.110] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.131] :Sending Touch (ACTION_MOVE): 0:(540.0,979.2)
+[Fastbot][2024-12-19 17:54:00.133] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.154] :Sending Touch (ACTION_MOVE): 0:(540.0,878.4)
+[Fastbot][2024-12-19 17:54:00.156] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.177] :Sending Touch (ACTION_MOVE): 0:(540.0,777.6)
+[Fastbot][2024-12-19 17:54:00.180] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.201] :Sending Touch (ACTION_MOVE): 0:(540.0,676.8)
+[Fastbot][2024-12-19 17:54:00.203] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.224] :Sending Touch (ACTION_MOVE): 0:(540.0,576.0)
+[Fastbot][2024-12-19 17:54:00.226] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.247] :Sending Touch (ACTION_MOVE): 0:(540.0,475.19995)
+[Fastbot][2024-12-19 17:54:00.248] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.270] :Sending Touch (ACTION_MOVE): 0:(540.0,374.40002)
+[Fastbot][2024-12-19 17:54:00.271] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.293] :Sending Touch (ACTION_MOVE): 0:(540.0,273.59998)
+[Fastbot][2024-12-19 17:54:00.296] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.317] :Sending Touch (ACTION_MOVE): 0:(540.0,172.80005)
+[Fastbot][2024-12-19 17:54:00.319] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.341] :Sending Touch (ACTION_UP): 0:(540.0,88.0)
+[Fastbot][2024-12-19 17:54:00.343] Sleeping for 113 milliseconds
+[Fastbot][2024-12-19 17:54:00.468] // Event id: 1360
+[Fastbot][2024-12-19 17:54:00.524] action type: CLICK
+[Fastbot][2024-12-19 17:54:00.524] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:00.526]  event time:69
+[Fastbot][2024-12-19 17:54:00.527] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:00.538] :Sending Touch (ACTION_DOWN): 0:(850.0,134.0)
+[Fastbot][2024-12-19 17:54:00.540] :Sending Touch (ACTION_UP): 0:(850.0,134.0)
+[Fastbot][2024-12-19 17:54:00.543] Sleeping for 113 milliseconds
+[Fastbot][2024-12-19 17:54:00.682] // Event id: 1364
+[Fastbot][2024-12-19 17:54:00.740] action type: SCROLL_TOP_DOWN
+[Fastbot][2024-12-19 17:54:00.741] rpc cost time: 3
+[Fastbot][2024-12-19 17:54:00.744]  event time:86
+[Fastbot][2024-12-19 17:54:00.746] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:00.754] :Sending Touch (ACTION_DOWN): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:54:00.756] :Sending Touch (ACTION_MOVE): 0:(540.0,1080.0)
+[Fastbot][2024-12-19 17:54:00.770] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.792] :Sending Touch (ACTION_MOVE): 0:(540.0,1175.3)
+[Fastbot][2024-12-19 17:54:00.797] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.818] :Sending Touch (ACTION_MOVE): 0:(540.0,1270.6)
+[Fastbot][2024-12-19 17:54:00.820] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.841] :Sending Touch (ACTION_MOVE): 0:(540.0,1365.9)
+[Fastbot][2024-12-19 17:54:00.843] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.865] :Sending Touch (ACTION_MOVE): 0:(540.0,1461.2)
+[Fastbot][2024-12-19 17:54:00.866] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.888] :Sending Touch (ACTION_MOVE): 0:(540.0,1556.5)
+[Fastbot][2024-12-19 17:54:00.890] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.915] :Sending Touch (ACTION_MOVE): 0:(540.0,1651.8)
+[Fastbot][2024-12-19 17:54:00.917] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.939] :Sending Touch (ACTION_MOVE): 0:(540.0,1747.1)
+[Fastbot][2024-12-19 17:54:00.941] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.965] :Sending Touch (ACTION_MOVE): 0:(540.0,1842.4)
+[Fastbot][2024-12-19 17:54:00.968] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:00.991] :Sending Touch (ACTION_MOVE): 0:(540.0,1937.7)
+[Fastbot][2024-12-19 17:54:00.997] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:01.020] :Sending Touch (ACTION_UP): 0:(540.0,2033.0)
+[Fastbot][2024-12-19 17:54:01.024] Sleeping for 113 milliseconds
+[Fastbot][2024-12-19 17:54:01.169] // Event id: 1388
+[Fastbot][2024-12-19 17:54:01.232] action type: CLICK
+[Fastbot][2024-12-19 17:54:01.233] rpc cost time: 9
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:01.238]  event time:98
+[Fastbot][2024-12-19 17:54:01.239] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:01.253] :Sending Touch (ACTION_DOWN): 0:(87.0,88.0)
+[Fastbot][2024-12-19 17:54:01.257] :Sending Touch (ACTION_UP): 0:(87.0,88.0)
+[Fastbot][2024-12-19 17:54:01.264] Sleeping for 136 milliseconds
+[Fastbot][2024-12-19 17:54:01.443] // Event id: 1392
+[Fastbot][2024-12-19 17:54:01.553] action type: CLICK
+[Fastbot][2024-12-19 17:54:01.553] rpc cost time: 12
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:01.558]  event time:156
+[Fastbot][2024-12-19 17:54:01.558] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:01.566] :Sending Touch (ACTION_DOWN): 0:(241.0,483.0)
+[Fastbot][2024-12-19 17:54:01.570] :Sending Touch (ACTION_UP): 0:(241.0,483.0)
+[Fastbot][2024-12-19 17:54:01.573] Sleeping for 111 milliseconds
+[Fastbot][2024-12-19 17:54:01.586] // the top activity is com.elinkway.infinitemovies.ui.activity.EnvironmentSwitchActivity, phone capture activity is com.android.camera.CameraActivity
+[Fastbot][2024-12-19 17:54:01.587]     // Allowing start of Intent { cmp=com.le123.ysdq/com.elinkway.infinitemovies.ui.activity.EnvironmentSwitchActivity } in package com.le123.ysdq
+[Fastbot][2024-12-19 17:54:01.663]     // activityResuming(com.le123.ysdq)
+[Fastbot][2024-12-19 17:54:01.772] // Event id: 1396
+[Fastbot][2024-12-19 17:54:01.843] action type: CLICK
+[Fastbot][2024-12-19 17:54:01.843] rpc cost time: 2
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:01.846]  event time:154
+[Fastbot][2024-12-19 17:54:01.846] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:01.853] :Sending Touch (ACTION_DOWN): 0:(999.0,965.0)
+[Fastbot][2024-12-19 17:54:01.860] :Sending Touch (ACTION_UP): 0:(999.0,965.0)
+[Fastbot][2024-12-19 17:54:01.861] Sleeping for 136 milliseconds
+[Fastbot][2024-12-19 17:54:02.030] // Event id: 1400
+[Fastbot][2024-12-19 17:54:02.067] action type: CLICK
+[Fastbot][2024-12-19 17:54:02.067] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:02.069]  event time:70
+[Fastbot][2024-12-19 17:54:02.069] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:02.077] :Sending Touch (ACTION_DOWN): 0:(913.0,513.0)
+[Fastbot][2024-12-19 17:54:02.082] :Sending Touch (ACTION_UP): 0:(913.0,513.0)
+[Fastbot][2024-12-19 17:54:02.090] Sleeping for 124 milliseconds
+[Fastbot][2024-12-19 17:54:02.228] // Event id: 1404
+[Fastbot][2024-12-19 17:54:02.232] action type: CLICK
+[Fastbot][2024-12-19 17:54:02.232] rpc cost time: 3
+[Fastbot][2024-12-19 17:54:02.232] Input text is 少儿
+[Fastbot][2024-12-19 17:54:02.233] MonkeyIMEEvent added 少儿
+[Fastbot][2024-12-19 17:54:02.234]  event time:19
+[Fastbot][2024-12-19 17:54:02.235] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:02.243] :Sending Touch (ACTION_DOWN): 0:(585.0,145.0)
+[Fastbot][2024-12-19 17:54:02.246] :Sending Touch (ACTION_UP): 0:(585.0,145.0)
+[Fastbot][2024-12-19 17:54:02.250] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:54:02.251] :Is accepting text: false
+[Fastbot][2024-12-19 17:54:02.403] mInputShown not found, getInputMethodWindowVisibleHeight is used.
+[Fastbot][2024-12-19 17:54:02.403] :Is accepting text: true
+[Fastbot][2024-12-19 17:54:02.704] :Trying to send Input (少儿)
+[Fastbot][2024-12-19 17:54:02.704] :Input (少儿) is successfully sent: false
+[Fastbot][2024-12-19 17:54:02.705] :Input (少儿) is not sent. Please check if the adb keyboard is installed.
+[Fastbot][2024-12-19 17:54:02.706] Sleeping for 124 milliseconds
+[Fastbot][2024-12-19 17:54:02.843] // Event id: 1409
+[Fastbot][2024-12-19 17:54:02.897] action type: SCROLL_LEFT_RIGHT
+[Fastbot][2024-12-19 17:54:02.897] rpc cost time: 3
+[Fastbot][2024-12-19 17:54:02.900]  event time:68
+[Fastbot][2024-12-19 17:54:02.900] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:02.908] :Sending Touch (ACTION_DOWN): 0:(495.0,923.0)
+[Fastbot][2024-12-19 17:54:02.916] :Sending Touch (ACTION_MOVE): 0:(495.0,923.0)
+[Fastbot][2024-12-19 17:54:02.918] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:02.940] :Sending Touch (ACTION_MOVE): 0:(553.4,923.0)
+[Fastbot][2024-12-19 17:54:02.942] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:02.963] :Sending Touch (ACTION_MOVE): 0:(611.8,923.0)
+[Fastbot][2024-12-19 17:54:02.965] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:02.988] :Sending Touch (ACTION_MOVE): 0:(670.2,923.0)
+[Fastbot][2024-12-19 17:54:02.991] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.012] :Sending Touch (ACTION_MOVE): 0:(728.6,923.0)
+[Fastbot][2024-12-19 17:54:03.013] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.035] :Sending Touch (ACTION_MOVE): 0:(787.0,923.0)
+[Fastbot][2024-12-19 17:54:03.040] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.061] :Sending Touch (ACTION_MOVE): 0:(845.4,923.0)
+[Fastbot][2024-12-19 17:54:03.062] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.084] :Sending Touch (ACTION_MOVE): 0:(903.8,923.0)
+[Fastbot][2024-12-19 17:54:03.087] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.109] :Sending Touch (ACTION_MOVE): 0:(962.2,923.0)
+[Fastbot][2024-12-19 17:54:03.111] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.131]     //[calendar_time:2024-12-19 17:54:03.131  system_uptime:13377409]
+[Fastbot][2024-12-19 17:54:03.132]     // Sending event #1300
+[Fastbot][2024-12-19 17:54:03.132]     //[calendar_time:2024-12-19 17:54:03.132  system_uptime:13377410]
+[Fastbot][2024-12-19 17:54:03.133]     // Sending event #1300
+[Fastbot][2024-12-19 17:54:03.133] :Sending Touch (ACTION_MOVE): 0:(1020.6,923.0)
+[Fastbot][2024-12-19 17:54:03.137] Wait Event for 20 milliseconds
+[Fastbot][2024-12-19 17:54:03.158] :Sending Touch (ACTION_UP): 0:(1079.0,923.0)
+[Fastbot][2024-12-19 17:54:03.160] Sleeping for 124 milliseconds
+[Fastbot][2024-12-19 17:54:03.299] // Event id: 1433
+[Fastbot][2024-12-19 17:54:03.305] action type: CLICK
+[Fastbot][2024-12-19 17:54:03.305] rpc cost time: 5
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:03.307]  event time:21
+[Fastbot][2024-12-19 17:54:03.308] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:03.319] :Sending Touch (ACTION_DOWN): 0:(975.0,88.0)
+[Fastbot][2024-12-19 17:54:03.322] :Sending Touch (ACTION_UP): 0:(975.0,88.0)
+[Fastbot][2024-12-19 17:54:03.324] Sleeping for 166 milliseconds
+[Fastbot][2024-12-19 17:54:03.507] // Event id: 1437
+[Fastbot][2024-12-19 17:54:03.511] action type: CLICK
+[Fastbot][2024-12-19 17:54:03.511] rpc cost time: 3
+[Fastbot]*** WARNING *** checkVirtualKeyboard: Input only once.
+[Fastbot][2024-12-19 17:54:03.513]  event time:21
+[Fastbot][2024-12-19 17:54:03.514] :Sending rotation degree=0, persist=false
+[Fastbot][2024-12-19 17:54:03.522] :Sending Touch (ACTION_DOWN): 0:(189.0,188.0)
+[Fastbot][2024-12-19 17:54:03.527] :Sending Touch (ACTION_UP): 0:(189.0,188.0)
+[Fastbot][2024-12-19 17:54:03.530] Sleeping for 166 milliseconds
